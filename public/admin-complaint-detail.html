@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUCMS — Review Complaint</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="nav"></div>
+<div class="page-wrap">
+  <div id="content"><p class="muted">Loading…</p></div>
+</div>
+<script src="js/api.js"></script>
+<script>
+requireLogin('admin');
+document.getElementById('nav').innerHTML = renderTopbar('complaints');
+
+const CATEGORIES = ['Power Outage', 'Billing Dispute', 'Water Supply Issue', 'Network Connectivity', 'Sanitation', 'General'];
+const PRIORITIES = ['Low', 'Medium', 'High', 'Critical'];
+const STATUS_FLOW = ['Submitted', 'Under Review', 'Assigned', 'In Progress', 'Resolved', 'Closed'];
+
+const params = new URLSearchParams(window.location.search);
+const id = params.get('id');
+let currentData = null;
+
+function nextStatusOptions(current) {
+  const idx = STATUS_FLOW.indexOf(current);
+  return STATUS_FLOW.slice(idx + 1);
+}
+
+async function load() {
+  try {
+    currentData = await Api.get(`/admin/complaints/${id}`);
+    render();
+  } catch (err) {
+    document.getElementById('content').innerHTML = `<div class="alert error">${escapeHtml(err.message)}</div>`;
+  }
+}
+
+function render() {
+  const { complaint: c, classification: cls, history, responses, citizen } = currentData;
+
+  const historyHtml = history.map(h => `
+    <li>
+      <div class="t-time">${fmtDate(h.timestamp)} · ${escapeHtml(h.actorRole)}</div>
+      <div class="t-event">${escapeHtml(h.event)}</div>
+    </li>
+  `).join('');
+
+  const responsesHtml = responses.length
+    ? responses.map(r => `
+        <div class="card" style="padding:14px; margin-bottom:10px; ${r.isResolutionNote ? 'border-left:4px solid var(--color-success);' : ''}">
+          <div class="muted" style="font-size:12px; margin-bottom:4px;">${r.isResolutionNote ? 'Resolution Note' : 'Response'} · ${fmtDate(r.createdAt)}</div>
+          <div>${escapeHtml(r.message)}</div>
+        </div>
+      `).join('')
+    : `<p class="muted">No responses yet.</p>`;
+
+  const nextOptions = nextStatusOptions(c.status);
+  const categoryOptions = CATEGORIES.map(cat => `<option value="${cat}" ${cat === c.category ? 'selected' : ''}>${cat}</option>`).join('');
+  const priorityOptions = PRIORITIES.map(p => `<option value="${p}" ${p === c.priority ? 'selected' : ''}>${p}</option>`).join('');
+  const statusOptions = nextOptions.length
+    ? nextOptions.map(s => `<option value="${s}">${s}</option>`).join('')
+    : `<option value="">No further transitions</option>`;
+
+  document.getElementById('content').innerHTML = `
+    <div class="page-header">
+      <div>
+        <h1>${escapeHtml(c.complaintNumber)}</h1>
+        <p>${escapeHtml(c.title)} · submitted by ${escapeHtml(citizen ? citizen.fullName : 'Unknown')}</p>
+      </div>
+      <a href="admin-complaints.html" class="btn ghost">← Back to Complaints</a>
+    </div>
+
+    <div id="actionAlert"></div>
+
+    <div class="grid-2">
+      <div>
+        <div class="card">
+          <div class="section-title">Complaint Details</div>
+          <table>
+            <tr><td class="muted" style="width:160px;">Utility</td><td>${escapeHtml(c.utility)}</td></tr>
+            <tr><td class="muted">Current Status</td><td><span class="badge ${statusClass(c.status)}">${escapeHtml(c.status)}</span></td></tr>
+            <tr><td class="muted">Current Priority</td><td><span class="badge ${priorityClass(c.priority)}">${escapeHtml(c.priority)}</span></td></tr>
+            <tr><td class="muted">Location</td><td>${escapeHtml(c.location)}</td></tr>
+            <tr><td class="muted">Citizen</td><td>${citizen ? escapeHtml(citizen.fullName) + ' · ' + escapeHtml(citizen.email) + (citizen.phone ? ' · ' + escapeHtml(citizen.phone) : '') : '—'}</td></tr>
+            <tr><td class="muted">Submitted</td><td>${fmtDate(c.createdAt)}</td></tr>
+            <tr><td class="muted">Last Updated</td><td>${fmtDate(c.updatedAt)}</td></tr>
+            <tr><td class="muted">Assigned Team</td><td>${escapeHtml(c.assignedTeam || 'Unassigned')}</td></tr>
+          </table>
+          <div class="section-title" style="margin-top:18px;">Description</div>
+          <p>${escapeHtml(c.description)}</p>
+        </div>
+
+        <div class="card">
+          <div class="section-title">AI Classification</div>
+          <table>
+            <tr><td class="muted" style="width:160px;">AI Category</td><td>${escapeHtml(cls ? cls.aiCategory : '—')}</td></tr>
+            <tr><td class="muted">AI Confidence</td><td>${cls ? Math.round(cls.aiConfidence * 100) + '%' : '—'}</td></tr>
+            <tr><td class="muted">AI Priority Suggestion</td><td>${escapeHtml(cls ? cls.aiPriority : '—')}</td></tr>
+            ${cls && cls.requiresManualReview ? `<tr><td class="muted">Flag</td><td><span class="badge priority-high">Requires manual review</span></td></tr>` : ''}
+            ${cls && cls.correctedCategory ? `<tr><td class="muted">Admin Corrected To</td><td>${escapeHtml(cls.correctedCategory)} <span class="muted">(by ${escapeHtml(cls.correctedByAdminId || '')} on ${fmtDate(cls.correctedAt)})</span></td></tr>` : ''}
+          </table>
+          ${cls && cls.keywords && cls.keywords.length ? `<div style="margin-top:8px;">${cls.keywords.map(k => `<span class="kw-tag">${escapeHtml(k)}</span>`).join('')}</div>` : ''}
+
+          <div style="margin-top:16px; display:flex; gap:10px; align-items:end; flex-wrap:wrap;">
+            <div class="form-group" style="margin-bottom:0; min-width:200px;">
+              <label>Category</label>
+              <select id="categorySelect">${categoryOptions}</select>
+            </div>
+            <button class="btn secondary" id="acceptBtn">Accept AI Classification</button>
+            <button class="btn" id="changeCategoryBtn">Change Classification</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Respond to Citizen</div>
+          <div class="form-group">
+            <textarea id="responseMsg" rows="3" placeholder="Write a message to the citizen…"></textarea>
+          </div>
+          <div style="display:flex; gap:10px;">
+            <button class="btn secondary" id="sendResponseBtn">Send Response</button>
+            <button class="btn" id="resolveBtn">Send as Resolution &amp; Resolve</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Response History</div>
+          ${responsesHtml}
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <div class="section-title">Priority</div>
+          <div class="form-group">
+            <select id="prioritySelect">${priorityOptions}</select>
+          </div>
+          <button class="btn secondary" id="updatePriorityBtn" style="width:100%;">Update Priority</button>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Assign Complaint</div>
+          <div class="form-group">
+            <input type="text" id="teamInput" placeholder="e.g. Electricity Operations Team" value="${escapeHtml(c.assignedTeam || '')}">
+          </div>
+          <button class="btn secondary" id="assignBtn" style="width:100%;">Assign</button>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Update Status</div>
+          <div class="form-group">
+            <select id="statusSelect" ${!nextOptions.length ? 'disabled' : ''}>${statusOptions}</select>
+          </div>
+          <button class="btn secondary" id="statusBtn" style="width:100%;" ${!nextOptions.length ? 'disabled' : ''}>Update Status</button>
+        </div>
+
+        <div class="card">
+          <div class="section-title">Complaint Timeline</div>
+          <ul class="timeline">${historyHtml}</ul>
+        </div>
+      </div>
+    </div>
+  `;
+
+  wireActions();
+}
+
+function actionAlert(msg, type) {
+  document.getElementById('actionAlert').innerHTML = `<div class="alert ${type}">${escapeHtml(msg)}</div>`;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function wireActions() {
+  document.getElementById('acceptBtn').addEventListener('click', async () => {
+    try {
+      await Api.post(`/admin/complaints/${id}/classification`, { category: currentData.classification.aiCategory, utility: currentData.complaint.utility });
+      actionAlert('AI classification accepted.', 'success');
+      await load();
+    } catch (err) { actionAlert(err.message, 'error'); }
+  });
+
+  document.getElementById('changeCategoryBtn').addEventListener('click', async () => {
+    const category = document.getElementById('categorySelect').value;
+    try {
+      await Api.post(`/admin/complaints/${id}/classification`, { category });
+      actionAlert(`Classification changed to "${category}".`, 'success');
+      await load();
+    } catch (err) { actionAlert(err.message, 'error'); }
+  });
+
+  document.getElementById('updatePriorityBtn').addEventListener('click', async () => {
+    const priority = document.getElementById('prioritySelect').value;
+    try {
+      await Api.post(`/admin/complaints/${id}/priority`, { priority });
+      actionAlert(`Priority updated to "${priority}".`, 'success');
+      await load();
+    } catch (err) { actionAlert(err.message, 'error'); }
+  });
+
+  document.getElementById('assignBtn').addEventListener('click', async () => {
+    const team = document.getElementById('teamInput').value.trim();
+    if (!team) { actionAlert('Please enter a team or staff name.', 'error'); return; }
+    try {
+      await Api.post(`/admin/complaints/${id}/assign`, { team });
+      actionAlert(`Complaint assigned to "${team}".`, 'success');
+      await load();
+    } catch (err) { actionAlert(err.message, 'error'); }
+  });
+
+  const statusBtn = document.getElementById('statusBtn');
+  if (statusBtn) {
+    statusBtn.addEventListener('click', async () => {
+      const status = document.getElementById('statusSelect').value;
+      if (!status) return;
+      try {
+        await Api.post(`/admin/complaints/${id}/status`, { status });
+        actionAlert(`Status updated to "${status}".`, 'success');
+        await load();
+      } catch (err) { actionAlert(err.message, 'error'); }
+    });
+  }
+
+  document.getElementById('sendResponseBtn').addEventListener('click', async () => {
+    const message = document.getElementById('responseMsg').value.trim();
+    if (!message) { actionAlert('Please write a message first.', 'error'); return; }
+    try {
+      await Api.post(`/admin/complaints/${id}/respond`, { message, isResolutionNote: false });
+      actionAlert('Response sent to citizen.', 'success');
+      await load();
+    } catch (err) { actionAlert(err.message, 'error'); }
+  });
+
+  document.getElementById('resolveBtn').addEventListener('click', async () => {
+    const message = document.getElementById('responseMsg').value.trim();
+    if (!message) { actionAlert('Please write resolution notes first.', 'error'); return; }
+    try {
+      await Api.post(`/admin/complaints/${id}/resolve`, { resolutionNotes: message });
+      actionAlert('Complaint marked as resolved and citizen notified.', 'success');
+      await load();
+    } catch (err) { actionAlert(err.message, 'error'); }
+  });
+}
+
+load();
+</script>
+</body>
+</html>

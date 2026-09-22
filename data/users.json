@@ -1,0 +1,47 @@
+[
+  {
+    "id": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "role": "citizen",
+    "fullName": "Yaw Boateng",
+    "email": "yaw.boateng@example.com",
+    "phone": "+233241234567",
+    "passwordHash": "$2a$10$3CYC1jngqMvMRUaQH8QBIu/9bC7KdC2wPqNg24llH5c4sJNBOu5jW",
+    "createdAt": "2026-09-18T18:35:33.876Z"
+  },
+  {
+    "id": "7408b15d-907c-44d2-a161-570a2007dada",
+    "role": "citizen",
+    "fullName": "Abena Asante",
+    "email": "abena.asante@example.com",
+    "phone": "+233207654321",
+    "passwordHash": "$2a$10$M/uRsJWzjdXJfVwIjnwH.eDYBgZmw2RRUux70H/tuc2Qs9J/6vJKO",
+    "createdAt": "2026-09-18T18:35:33.965Z"
+  },
+  {
+    "id": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "role": "citizen",
+    "fullName": "Kwabena Osei",
+    "email": "kwabena.osei@example.com",
+    "phone": "+233551122334",
+    "passwordHash": "$2a$10$ehZqe30.Mi2lTZCp.APmUum7Vg2OTtpQ/yQwOKxtIpCyH8d1e8mIS",
+    "createdAt": "2026-09-18T18:35:34.055Z"
+  },
+  {
+    "id": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "role": "citizen",
+    "fullName": "Akosua Addo",
+    "email": "akosua.addo@example.com",
+    "phone": "+233264455667",
+    "passwordHash": "$2a$10$SW4NUlr0NYPww33BNfrxSOSFFIxGaPynmKfWDHRRhIr0QzClThyfi",
+    "createdAt": "2026-09-18T18:35:34.147Z"
+  },
+  {
+    "id": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "role": "citizen",
+    "fullName": "Kofi Ansah",
+    "email": "kofi.ansah@example.com",
+    "phone": "+233209988776",
+    "passwordHash": "$2a$10$MRwK4jKVzj1hilRySvqpieDyp.DIZZ8tMsJ/hPUC5Mg3t/576Ykni",
+    "createdAt": "2026-09-18T18:35:34.238Z"
+  }
+]

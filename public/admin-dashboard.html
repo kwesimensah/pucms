@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUCMS — Admin Dashboard</title>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+  .bar-chart { display:flex; flex-direction:column; gap:10px; }
+  .bar-row { display:flex; align-items:center; gap:10px; font-size:13px; }
+  .bar-label { width:150px; flex-shrink:0; color:var(--color-text-muted); }
+  .bar-track { flex:1; background:#eef1f4; border-radius:3px; height:16px; overflow:hidden; }
+  .bar-fill { height:100%; background: var(--color-primary); }
+  .bar-value { width:34px; text-align:right; font-weight:600; flex-shrink:0; }
+</style>
+</head>
+<body>
+<div id="nav"></div>
+<div class="page-wrap">
+  <div class="page-header">
+    <div>
+      <h1>Administrator Dashboard</h1>
+      <p>System-wide overview of all citizen complaints. <span class="muted">Demo data is simulated.</span></p>
+    </div>
+    <a href="admin-complaints.html" class="btn">Manage Complaints</a>
+  </div>
+
+  <div class="stat-grid" id="statGrid"></div>
+
+  <div class="grid-2">
+    <div class="card">
+      <div class="section-title">Complaints by Utility</div>
+      <div class="bar-chart" id="byUtility"></div>
+    </div>
+    <div class="card">
+      <div class="section-title">Complaints by Priority</div>
+      <div class="bar-chart" id="byPriority"></div>
+    </div>
+  </div>
+
+  <div class="grid-2" style="margin-top:16px;">
+    <div class="card">
+      <div class="section-title">Complaints by Category</div>
+      <div class="bar-chart" id="byCategory"></div>
+    </div>
+    <div class="card">
+      <div class="section-title">Complaints by Status</div>
+      <div class="bar-chart" id="byStatus"></div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:16px;">
+    <div class="section-title">Performance</div>
+    <div class="stat-grid" style="margin-bottom:0;">
+      <div class="stat-card"><div class="stat-value" id="avgResponse">—</div><div class="stat-label">Avg Response Time (hrs)</div></div>
+      <div class="stat-card"><div class="stat-value" id="avgResolution">—</div><div class="stat-label">Avg Resolution Time (hrs)</div></div>
+    </div>
+  </div>
+</div>
+<script src="js/api.js"></script>
+<script>
+requireLogin('admin');
+document.getElementById('nav').innerHTML = renderTopbar('dashboard');
+
+function renderBars(containerId, dataObj) {
+  const entries = Object.entries(dataObj || {}).sort((a, b) => b[1] - a[1]);
+  const max = Math.max(1, ...entries.map(e => e[1]));
+  const el = document.getElementById(containerId);
+  if (!entries.length) { el.innerHTML = '<p class="muted">No data.</p>'; return; }
+  el.innerHTML = entries.map(([label, value]) => `
+    <div class="bar-row">
+      <div class="bar-label">${escapeHtml(label)}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(value / max) * 100}%"></div></div>
+      <div class="bar-value">${value}</div>
+    </div>
+  `).join('');
+}
+
+async function load() {
+  try {
+    const [{ stats }, { analytics }] = await Promise.all([
+      Api.get('/admin/dashboard'),
+      Api.get('/admin/reports/analytics')
+    ]);
+
+    document.getElementById('statGrid').innerHTML = `
+      <div class="stat-card"><div class="stat-value">${stats.total}</div><div class="stat-label">Total Complaints</div></div>
+      <div class="stat-card"><div class="stat-value">${stats.new}</div><div class="stat-label">New</div></div>
+      <div class="stat-card"><div class="stat-value">${stats.underReview}</div><div class="stat-label">Under Review</div></div>
+      <div class="stat-card warning"><div class="stat-value">${stats.inProgress}</div><div class="stat-label">In Progress</div></div>
+      <div class="stat-card resolved"><div class="stat-value">${stats.resolved}</div><div class="stat-label">Resolved</div></div>
+      <div class="stat-card critical"><div class="stat-value">${stats.critical}</div><div class="stat-label">Critical</div></div>
+    `;
+
+    renderBars('byUtility', analytics.byUtility);
+    renderBars('byPriority', analytics.byPriority);
+    renderBars('byCategory', analytics.byCategory);
+    renderBars('byStatus', analytics.byStatus);
+
+    document.getElementById('avgResponse').textContent = analytics.avgResponseTimeHours;
+    document.getElementById('avgResolution').textContent = analytics.avgResolutionTimeHours;
+  } catch (err) {
+    document.getElementById('statGrid').innerHTML = `<div class="alert error">${escapeHtml(err.message)}</div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>

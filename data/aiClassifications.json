@@ -1,0 +1,740 @@
+[
+  {
+    "id": "a60c57dd-4133-4c93-803c-1056da48d1a2",
+    "complaintId": "c1012afb-c094-47be-917e-d5fad93c865b",
+    "aiCategory": "Power Outage",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.8,
+    "aiPriority": "High",
+    "keywords": [
+      "ecg",
+      "power"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Power Outage",
+    "originalConfidence": 0.8,
+    "createdAt": "2026-09-18T18:35:34.240Z"
+  },
+  {
+    "id": "651b6b4d-33e8-4d11-bd91-b5708bd11116",
+    "complaintId": "bdc95aeb-ac40-459e-95de-e3259955fa7f",
+    "aiCategory": "Power Outage",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.91,
+    "aiPriority": "Critical",
+    "keywords": [
+      "power",
+      "surge"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Power Outage",
+    "originalConfidence": 0.91,
+    "createdAt": "2026-09-18T18:35:34.241Z"
+  },
+  {
+    "id": "010ab69c-b842-4e0e-983b-a595723471d0",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "aiCategory": "Billing Dispute",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.83,
+    "aiPriority": "High",
+    "keywords": [
+      "bill",
+      "meter",
+      "reading"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Billing Dispute",
+    "originalConfidence": 0.83,
+    "createdAt": "2026-09-18T18:35:34.242Z"
+  },
+  {
+    "id": "2c13d2c9-6623-40c5-98ec-c677ce90322b",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "aiCategory": "Billing Dispute",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.99,
+    "aiPriority": "Low",
+    "keywords": [
+      "bill",
+      "billing",
+      "address",
+      "change"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Billing Dispute",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.244Z"
+  },
+  {
+    "id": "43f58684-3739-4044-b696-d3a79c4fc285",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "aiCategory": "Power Outage",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "without",
+      "electricity"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Power Outage",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.246Z"
+  },
+  {
+    "id": "f3f5f713-00cd-4d67-884e-4f3afb545c86",
+    "complaintId": "5ac5a99f-1e63-48ef-a668-3464ae45b49d",
+    "aiCategory": "Power Outage",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.68,
+    "aiPriority": "Critical",
+    "keywords": [
+      "electrical"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Power Outage",
+    "originalConfidence": 0.68,
+    "createdAt": "2026-09-18T18:35:34.253Z"
+  },
+  {
+    "id": "015c6fe7-94a4-42ab-af0b-7956de445182",
+    "complaintId": "2bedcdf4-3a01-466d-bc2c-b1f926c50fae",
+    "aiCategory": "General",
+    "aiUtility": "General",
+    "aiConfidence": 0.2,
+    "aiPriority": "Low",
+    "keywords": [],
+    "requiresManualReview": true,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "General",
+    "originalConfidence": 0.2,
+    "createdAt": "2026-09-18T18:35:34.255Z"
+  },
+  {
+    "id": "7914cc55-6b44-4f44-9049-69f0a8639aa0",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "aiCategory": "Power Outage",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.86,
+    "aiPriority": "Medium",
+    "keywords": [
+      "power",
+      "fluctuation"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Power Outage",
+    "originalConfidence": 0.86,
+    "createdAt": "2026-09-18T18:35:34.256Z"
+  },
+  {
+    "id": "d88d80c9-c66c-49bd-bd88-50ebe4706e19",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "aiCategory": "Power Outage",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.77,
+    "aiPriority": "Critical",
+    "keywords": [
+      "transformer"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Power Outage",
+    "originalConfidence": 0.77,
+    "createdAt": "2026-09-18T18:35:34.260Z"
+  },
+  {
+    "id": "b5559d7d-43bc-40dd-8e2d-7a7f685a6680",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "aiCategory": "Power Outage",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "ecg",
+      "dumsor"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Power Outage",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.263Z"
+  },
+  {
+    "id": "b3e6ed56-a72c-49be-81aa-b4ef1406701a",
+    "complaintId": "d64610cb-c4a3-444f-a006-4591e0ef1692",
+    "aiCategory": "General",
+    "aiUtility": "General",
+    "aiConfidence": 0.2,
+    "aiPriority": "High",
+    "keywords": [],
+    "requiresManualReview": true,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "General",
+    "originalConfidence": 0.2,
+    "createdAt": "2026-09-18T18:35:34.268Z"
+  },
+  {
+    "id": "0eec73fc-b66f-4373-916d-4ebf7c570de5",
+    "complaintId": "5a1d0a25-9a6a-419b-aa7c-70f007239cd5",
+    "aiCategory": "Water Supply Issue",
+    "aiUtility": "Water",
+    "aiConfidence": 0.83,
+    "aiPriority": "High",
+    "keywords": [
+      "water",
+      "pressure"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Water Supply Issue",
+    "originalConfidence": 0.83,
+    "createdAt": "2026-09-18T18:35:34.269Z"
+  },
+  {
+    "id": "21ceac67-940e-47d8-aebe-f43d6a060e17",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "aiCategory": "Water Supply Issue",
+    "aiUtility": "Water",
+    "aiConfidence": 0.83,
+    "aiPriority": "Critical",
+    "keywords": [
+      "burst",
+      "pipe"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Water Supply Issue",
+    "originalConfidence": 0.83,
+    "createdAt": "2026-09-18T18:35:34.270Z"
+  },
+  {
+    "id": "56b44357-8e18-4eff-abc7-59320f9933d6",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "aiCategory": "General",
+    "aiUtility": "General",
+    "aiConfidence": 0.2,
+    "aiPriority": "Low",
+    "keywords": [],
+    "requiresManualReview": true,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "General",
+    "originalConfidence": 0.2,
+    "createdAt": "2026-09-18T18:35:34.273Z"
+  },
+  {
+    "id": "55801c2f-cea6-49e6-981e-0106873fc2c5",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "aiCategory": "Water Supply Issue",
+    "aiUtility": "Water",
+    "aiConfidence": 0.72,
+    "aiPriority": "Medium",
+    "keywords": [
+      "running",
+      "water"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Water Supply Issue",
+    "originalConfidence": 0.72,
+    "createdAt": "2026-09-18T18:35:34.276Z"
+  },
+  {
+    "id": "b486b39c-b101-4811-a945-63750ca966d0",
+    "complaintId": "8d78dc56-c221-4d84-829a-9f208e68128e",
+    "aiCategory": "Billing Dispute",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.77,
+    "aiPriority": "Medium",
+    "keywords": [
+      "bill"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Billing Dispute",
+    "originalConfidence": 0.77,
+    "createdAt": "2026-09-18T18:35:34.283Z"
+  },
+  {
+    "id": "fb50604e-d0b2-4fd4-94d0-696982bdc7ae",
+    "complaintId": "8f2efa26-ab67-4eb4-a4c0-25c988c869da",
+    "aiCategory": "Water Supply Issue",
+    "aiUtility": "Water",
+    "aiConfidence": 0.83,
+    "aiPriority": "High",
+    "keywords": [
+      "leaking",
+      "pipe"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Water Supply Issue",
+    "originalConfidence": 0.83,
+    "createdAt": "2026-09-18T18:35:34.284Z"
+  },
+  {
+    "id": "299b280f-0c80-48e3-b7e5-467096bc0f3b",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "aiCategory": "Water Supply Issue",
+    "aiUtility": "Water",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "low",
+      "water",
+      "pressure"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Water Supply Issue",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.286Z"
+  },
+  {
+    "id": "b74080d3-c6e2-476d-9c6c-766c170b9d03",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "aiCategory": "Sanitation",
+    "aiUtility": "Sanitation",
+    "aiConfidence": 0.83,
+    "aiPriority": "Medium",
+    "keywords": [
+      "garbage"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Sanitation",
+    "originalConfidence": 0.83,
+    "createdAt": "2026-09-18T18:35:34.289Z"
+  },
+  {
+    "id": "8030fbb5-d794-4963-9195-6472dd9e78e2",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "aiCategory": "Sanitation",
+    "aiUtility": "Sanitation",
+    "aiConfidence": 0.83,
+    "aiPriority": "Medium",
+    "keywords": [
+      "dump",
+      "site"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Sanitation",
+    "originalConfidence": 0.83,
+    "createdAt": "2026-09-18T18:35:34.293Z"
+  },
+  {
+    "id": "ed7d6c74-97fc-4065-a8ac-7812fd7841f8",
+    "complaintId": "5f3dd127-eb3b-4eb0-96df-3599bbec4c5c",
+    "aiCategory": "Sanitation",
+    "aiUtility": "Sanitation",
+    "aiConfidence": 0.99,
+    "aiPriority": "Critical",
+    "keywords": [
+      "refuse",
+      "gutter"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Sanitation",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.298Z"
+  },
+  {
+    "id": "da78b5db-c433-4ab6-abf9-aa34fbbcf898",
+    "complaintId": "42bc4fd1-9e2b-4dd6-a718-e1bee0453f61",
+    "aiCategory": "Sanitation",
+    "aiUtility": "Sanitation",
+    "aiConfidence": 0.83,
+    "aiPriority": "Critical",
+    "keywords": [
+      "sewage"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Sanitation",
+    "originalConfidence": 0.83,
+    "createdAt": "2026-09-18T18:35:34.299Z"
+  },
+  {
+    "id": "bbad32a1-7bab-4722-aa55-0d98537e3c18",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "aiCategory": "Sanitation",
+    "aiUtility": "Sanitation",
+    "aiConfidence": 0.83,
+    "aiPriority": "Medium",
+    "keywords": [
+      "refuse"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Sanitation",
+    "originalConfidence": 0.83,
+    "createdAt": "2026-09-18T18:35:34.302Z"
+  },
+  {
+    "id": "c9a441b2-6b72-4d90-a523-96b8151551c6",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "aiCategory": "Sanitation",
+    "aiUtility": "Sanitation",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "gutter",
+      "bad",
+      "smell"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Sanitation",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.310Z"
+  },
+  {
+    "id": "dce662e0-9e26-4b73-8f2e-6d9195d7ded8",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "aiCategory": "General",
+    "aiUtility": "General",
+    "aiConfidence": 0.2,
+    "aiPriority": "Low",
+    "keywords": [],
+    "requiresManualReview": true,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "General",
+    "originalConfidence": 0.2,
+    "createdAt": "2026-09-18T18:35:34.316Z"
+  },
+  {
+    "id": "7769ec0d-3424-413d-9a49-d547fbe3c1bb",
+    "complaintId": "676813de-f3ad-45a8-bddc-b7b4860220e0",
+    "aiCategory": "Network Connectivity",
+    "aiUtility": "Telecommunications",
+    "aiConfidence": 0.88,
+    "aiPriority": "High",
+    "keywords": [
+      "network"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Network Connectivity",
+    "originalConfidence": 0.88,
+    "createdAt": "2026-09-18T18:35:34.322Z"
+  },
+  {
+    "id": "4897c4ff-9981-4d26-b7ea-0e97794b81c0",
+    "complaintId": "9d2b1be7-c53f-4156-a27f-8d8b3b362a5c",
+    "aiCategory": "Network Connectivity",
+    "aiUtility": "Telecommunications",
+    "aiConfidence": 0.94,
+    "aiPriority": "Medium",
+    "keywords": [
+      "internet",
+      "connection"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Network Connectivity",
+    "originalConfidence": 0.94,
+    "createdAt": "2026-09-18T18:35:34.324Z"
+  },
+  {
+    "id": "bca7f7b6-2c15-4ed9-8418-2a2a3f8e5bac",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "aiCategory": "General",
+    "aiUtility": "General",
+    "aiConfidence": 0.2,
+    "aiPriority": "High",
+    "keywords": [],
+    "requiresManualReview": true,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "General",
+    "originalConfidence": 0.2,
+    "createdAt": "2026-09-18T18:35:34.326Z"
+  },
+  {
+    "id": "16b86e20-6bb7-4af2-b589-d067dbd9ac47",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "aiCategory": "General",
+    "aiUtility": "General",
+    "aiConfidence": 0.2,
+    "aiPriority": "Low",
+    "keywords": [],
+    "requiresManualReview": true,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "General",
+    "originalConfidence": 0.2,
+    "createdAt": "2026-09-18T18:35:34.330Z"
+  },
+  {
+    "id": "175dbf79-9871-4567-815f-0fdc62649b7d",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "aiCategory": "Network Connectivity",
+    "aiUtility": "Telecommunications",
+    "aiConfidence": 0.77,
+    "aiPriority": "Medium",
+    "keywords": [
+      "internet"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Network Connectivity",
+    "originalConfidence": 0.77,
+    "createdAt": "2026-09-18T18:35:34.336Z"
+  },
+  {
+    "id": "bfab43cb-47f9-4eef-84ef-8789c1dfef56",
+    "complaintId": "17559c33-3c28-43bb-ac71-8827808ca994",
+    "aiCategory": "Network Connectivity",
+    "aiUtility": "Telecommunications",
+    "aiConfidence": 0.88,
+    "aiPriority": "Medium",
+    "keywords": [
+      "network"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Network Connectivity",
+    "originalConfidence": 0.88,
+    "createdAt": "2026-09-18T18:35:34.345Z"
+  },
+  {
+    "id": "74e24663-4ac9-4809-a0c2-cbf855a6dd45",
+    "complaintId": "63383ef5-a76f-415a-a09e-8ed5aea445ae",
+    "aiCategory": "Network Connectivity",
+    "aiUtility": "Telecommunications",
+    "aiConfidence": 0.72,
+    "aiPriority": "Low",
+    "keywords": [
+      "wifi"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Network Connectivity",
+    "originalConfidence": 0.72,
+    "createdAt": "2026-09-18T18:35:34.346Z"
+  },
+  {
+    "id": "032a56e3-0493-44f9-8f2f-1a7bc6e9f85a",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "aiCategory": "General",
+    "aiUtility": "General",
+    "aiConfidence": 0.2,
+    "aiPriority": "Low",
+    "keywords": [],
+    "requiresManualReview": true,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "General",
+    "originalConfidence": 0.2,
+    "createdAt": "2026-09-18T18:35:34.348Z"
+  },
+  {
+    "id": "72801f09-af17-4126-8e86-332b78094447",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "aiCategory": "General",
+    "aiUtility": "General",
+    "aiConfidence": 0.77,
+    "aiPriority": "Low",
+    "keywords": [
+      "general",
+      "inquiry",
+      "complaint"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "General",
+    "originalConfidence": 0.77,
+    "createdAt": "2026-09-18T18:35:34.352Z"
+  },
+  {
+    "id": "62cbbc40-3fdd-4b1d-adcf-23118449009f",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "aiCategory": "Billing Dispute",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "bill",
+      "wrong",
+      "meter",
+      "reading"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Billing Dispute",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.358Z"
+  },
+  {
+    "id": "ff3407ee-e792-4943-a428-e3a46418ee7c",
+    "complaintId": "2a73c98e-fd01-47f9-965e-df122e06883d",
+    "aiCategory": "Water Supply Issue",
+    "aiUtility": "Water",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "contaminated",
+      "water",
+      "quality"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Water Supply Issue",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.366Z"
+  },
+  {
+    "id": "ae25a115-47b7-4f3f-af33-3f6ac6a9f6be",
+    "complaintId": "fae0f611-dc0d-4199-aac7-29f4e27ce227",
+    "aiCategory": "Sanitation",
+    "aiUtility": "Sanitation",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "sanitation",
+      "open",
+      "defecation"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Sanitation",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.368Z"
+  },
+  {
+    "id": "9714ab0c-0251-40fe-b99a-2e2c41ca7abf",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "aiCategory": "Network Connectivity",
+    "aiUtility": "Telecommunications",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "internet",
+      "broadband"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Network Connectivity",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.371Z"
+  },
+  {
+    "id": "ffbada40-a6d1-4912-aa26-f1dafb3e1c5e",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "aiCategory": "Power Outage",
+    "aiUtility": "Electricity",
+    "aiConfidence": 0.72,
+    "aiPriority": "Low",
+    "keywords": [
+      "voltage"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Power Outage",
+    "originalConfidence": 0.72,
+    "createdAt": "2026-09-18T18:35:34.377Z"
+  },
+  {
+    "id": "ebdeae65-c83a-4509-bb1f-dabbe2738120",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "aiCategory": "Water Supply Issue",
+    "aiUtility": "Water",
+    "aiConfidence": 0.99,
+    "aiPriority": "High",
+    "keywords": [
+      "water",
+      "supply"
+    ],
+    "requiresManualReview": false,
+    "correctedCategory": null,
+    "correctedByAdminId": null,
+    "correctedAt": null,
+    "originalCategory": "Water Supply Issue",
+    "originalConfidence": 0.99,
+    "createdAt": "2026-09-18T18:35:34.384Z"
+  }
+]

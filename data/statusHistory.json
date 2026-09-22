@@ -1,0 +1,1666 @@
+[
+  {
+    "id": "fd365c33-d9d2-4ac9-91fd-225daf6205dd",
+    "complaintId": "c1012afb-c094-47be-917e-d5fad93c865b",
+    "event": "Complaint submitted",
+    "actorId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.239Z"
+  },
+  {
+    "id": "fa6a5d27-df99-4d3a-ba7c-dd7bb728a3d9",
+    "complaintId": "c1012afb-c094-47be-917e-d5fad93c865b",
+    "event": "AI classified as Power Outage (80% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.240Z"
+  },
+  {
+    "id": "c2c9412a-31d8-4307-852d-c39f19f7456a",
+    "complaintId": "bdc95aeb-ac40-459e-95de-e3259955fa7f",
+    "event": "Complaint submitted",
+    "actorId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.241Z"
+  },
+  {
+    "id": "7a5734eb-10a4-4646-b624-784f6e08fdaa",
+    "complaintId": "bdc95aeb-ac40-459e-95de-e3259955fa7f",
+    "event": "AI classified as Power Outage (91% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.241Z"
+  },
+  {
+    "id": "41474fc3-4693-4e36-85b6-7404bdd73af6",
+    "complaintId": "bdc95aeb-ac40-459e-95de-e3259955fa7f",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.242Z"
+  },
+  {
+    "id": "10393cd4-5a4f-401e-9ef9-3790b43b16f4",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "event": "Complaint submitted",
+    "actorId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.242Z"
+  },
+  {
+    "id": "b2284852-11dc-47df-8c35-7085e0c98662",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "event": "AI classified as Billing Dispute (83% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.242Z"
+  },
+  {
+    "id": "779ff33e-9d77-4138-8f2d-086ee9ac83ba",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.243Z"
+  },
+  {
+    "id": "1f2e4551-b22e-4bac-9a41-726f12f909d7",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "event": "Assigned to Electricity Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.243Z"
+  },
+  {
+    "id": "2a7f6e08-d109-4f6d-937c-c0c2bc9e52c4",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.243Z"
+  },
+  {
+    "id": "a912243b-eeff-4dbe-9895-2c5537d0eca9",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "event": "Complaint submitted",
+    "actorId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.244Z"
+  },
+  {
+    "id": "4d207b76-631e-4f48-ac83-0aa75a85016b",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "event": "AI classified as Billing Dispute (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.244Z"
+  },
+  {
+    "id": "9846a90a-d116-4aea-8bb5-18824d6f04e5",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.244Z"
+  },
+  {
+    "id": "f773117c-a492-4a7c-b7ad-8e413e3cd093",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "event": "Assigned to Electricity Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.245Z"
+  },
+  {
+    "id": "9ffddcfb-41c5-494d-95f2-56be29e48ea0",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.245Z"
+  },
+  {
+    "id": "359a7895-3b91-4b0a-91c5-0b97309931b1",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.246Z"
+  },
+  {
+    "id": "619fcff6-4baf-41ab-af0a-38ccd73818d5",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.246Z"
+  },
+  {
+    "id": "fd5e4153-35da-43a6-a5fc-cd6b1a67cbc4",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "Complaint submitted",
+    "actorId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.246Z"
+  },
+  {
+    "id": "ed782d23-ff93-4571-967b-d518a75cd0e5",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "AI classified as Power Outage (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.247Z"
+  },
+  {
+    "id": "f3d361d0-8565-463b-bbd0-27fca70dd2ab",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.247Z"
+  },
+  {
+    "id": "8cba2490-8cf7-49ff-81bc-aa57dfa0669d",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "Assigned to Electricity Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.247Z"
+  },
+  {
+    "id": "4871f4eb-8754-4a2f-ba33-6d8d77b3c79f",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.248Z"
+  },
+  {
+    "id": "6c804632-a1dd-4c23-9949-e06126f9a163",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.248Z"
+  },
+  {
+    "id": "7950a99a-2182-4dac-bb6e-57e54a2f7d2c",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.249Z"
+  },
+  {
+    "id": "d3ff5855-0d3c-4ffe-8049-090239e285dd",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "Resolution notes added",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.250Z"
+  },
+  {
+    "id": "942f1051-8b3a-49cd-bc4f-089990f2b142",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "event": "Status changed to Resolved",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.252Z"
+  },
+  {
+    "id": "8c017c70-4b8b-41af-90e4-b33c8a6c2aab",
+    "complaintId": "5ac5a99f-1e63-48ef-a668-3464ae45b49d",
+    "event": "Complaint submitted",
+    "actorId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.253Z"
+  },
+  {
+    "id": "2303367c-6ab2-41b0-8ac5-8e75f22a2e26",
+    "complaintId": "5ac5a99f-1e63-48ef-a668-3464ae45b49d",
+    "event": "AI classified as Power Outage (68% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.254Z"
+  },
+  {
+    "id": "ee69f892-172d-4dac-8f0b-8b695a17fc1a",
+    "complaintId": "2bedcdf4-3a01-466d-bc2c-b1f926c50fae",
+    "event": "Complaint submitted",
+    "actorId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.254Z"
+  },
+  {
+    "id": "bdaa77b7-5c8f-47f3-8ae0-6b28473fdf8d",
+    "complaintId": "2bedcdf4-3a01-466d-bc2c-b1f926c50fae",
+    "event": "AI classified as General (20% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.255Z"
+  },
+  {
+    "id": "f246be95-e041-4827-849b-1781d9233975",
+    "complaintId": "2bedcdf4-3a01-466d-bc2c-b1f926c50fae",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.256Z"
+  },
+  {
+    "id": "72aaeac8-c839-41cd-86e5-7c7fff01dd00",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "event": "Complaint submitted",
+    "actorId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.256Z"
+  },
+  {
+    "id": "ed8b31f2-047d-4d7d-a4d0-54676ed3469a",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "event": "AI classified as Power Outage (86% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.257Z"
+  },
+  {
+    "id": "2a8d6899-10ca-472d-b224-9b07715aba8f",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.258Z"
+  },
+  {
+    "id": "6d16ec34-ceca-4a2d-800a-1d85fc954bd4",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "event": "Assigned to Electricity Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.258Z"
+  },
+  {
+    "id": "2adeb57f-b1a9-4ce9-84c9-0d1205ef9464",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.259Z"
+  },
+  {
+    "id": "273d4d13-6b6b-40b2-bd84-2d2d7c31a1c1",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "event": "Complaint submitted",
+    "actorId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.259Z"
+  },
+  {
+    "id": "c1050ed7-d44b-41c8-b9f0-6a924cc472e7",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "event": "AI classified as Power Outage (77% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.260Z"
+  },
+  {
+    "id": "46bc1cea-3635-44cb-b553-66b769ad3f24",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.261Z"
+  },
+  {
+    "id": "86e49a64-f6ee-4248-b9e6-9e714fbaba57",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "event": "Assigned to Electricity Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.261Z"
+  },
+  {
+    "id": "523cb31d-2511-4e2f-a086-63ca6ad91f29",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.262Z"
+  },
+  {
+    "id": "cc32c891-c6da-44b0-b745-75ac2931cb88",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.262Z"
+  },
+  {
+    "id": "7acd5342-92c1-41ea-802e-da20d8af8175",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.262Z"
+  },
+  {
+    "id": "74829ed1-a082-439a-ad69-7fed75f66502",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "Complaint submitted",
+    "actorId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.263Z"
+  },
+  {
+    "id": "dec5d274-090a-4832-a99f-75ef258e3ee7",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "AI classified as Power Outage (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.263Z"
+  },
+  {
+    "id": "f6351c16-39da-45d4-94f9-fe9ec78ac20e",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.264Z"
+  },
+  {
+    "id": "9321d05a-690f-4550-821f-ed34a0aaeea5",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "Assigned to Electricity Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.264Z"
+  },
+  {
+    "id": "c38059d4-77c7-41b4-9fa0-af2a722e3196",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.265Z"
+  },
+  {
+    "id": "a690cc38-6759-454c-85e8-a086cd24a8e8",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.265Z"
+  },
+  {
+    "id": "1dba1cf9-19ef-4fe8-87d9-6dc96accaca1",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.266Z"
+  },
+  {
+    "id": "720188bd-6f3e-41bd-a3be-de5b08c8933e",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "Resolution notes added",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.266Z"
+  },
+  {
+    "id": "6618fd3d-6e64-4def-a295-1266833a6337",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "event": "Status changed to Resolved",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.267Z"
+  },
+  {
+    "id": "9b05efef-a9b1-4a3e-87c3-9521f8d8940b",
+    "complaintId": "d64610cb-c4a3-444f-a006-4591e0ef1692",
+    "event": "Complaint submitted",
+    "actorId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.267Z"
+  },
+  {
+    "id": "8ec6966b-2462-4f41-9384-432160bdce7d",
+    "complaintId": "d64610cb-c4a3-444f-a006-4591e0ef1692",
+    "event": "AI classified as General (20% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.268Z"
+  },
+  {
+    "id": "aea0a5de-3489-4ec7-a9e3-e7564c31ad41",
+    "complaintId": "5a1d0a25-9a6a-419b-aa7c-70f007239cd5",
+    "event": "Complaint submitted",
+    "actorId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.268Z"
+  },
+  {
+    "id": "642c48b6-aecf-40bd-b0e8-846417631e4e",
+    "complaintId": "5a1d0a25-9a6a-419b-aa7c-70f007239cd5",
+    "event": "AI classified as Water Supply Issue (83% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.269Z"
+  },
+  {
+    "id": "208b154a-42e5-4dc1-b2c3-e200a1dc948d",
+    "complaintId": "5a1d0a25-9a6a-419b-aa7c-70f007239cd5",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.270Z"
+  },
+  {
+    "id": "c5ae5bbc-37b8-4ea3-881c-cc27a088da9e",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "event": "Complaint submitted",
+    "actorId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.270Z"
+  },
+  {
+    "id": "e6158b5c-7470-4f88-aca2-cef3e1336a35",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "event": "AI classified as Water Supply Issue (83% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.271Z"
+  },
+  {
+    "id": "593d5a96-445b-4593-bdef-8fa2ba1f24e0",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.271Z"
+  },
+  {
+    "id": "97f6ab71-b66c-41a8-8528-f319a0f698a8",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "event": "Assigned to Water Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.271Z"
+  },
+  {
+    "id": "e707736b-24dc-44fa-a091-72e79d27c983",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.272Z"
+  },
+  {
+    "id": "23f3d38c-3e6e-438f-87a9-805678c5f216",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "event": "Complaint submitted",
+    "actorId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.273Z"
+  },
+  {
+    "id": "93505a38-efc9-4e7d-aaf6-79826e796579",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "event": "AI classified as General (20% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.273Z"
+  },
+  {
+    "id": "2f24184b-a555-4826-a9d9-a760a95a4c83",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.274Z"
+  },
+  {
+    "id": "8880694e-3f99-46bd-8915-2ed5952894fa",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "event": "Assigned to Water Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.274Z"
+  },
+  {
+    "id": "8eff135a-394f-4662-9bff-312ffcc2d6ce",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.275Z"
+  },
+  {
+    "id": "9b221aea-2516-4dd8-abae-9c21dc4c099f",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.275Z"
+  },
+  {
+    "id": "9ed54cc9-1ae9-4578-b3a5-60d083c322ea",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.276Z"
+  },
+  {
+    "id": "1a672f3e-bafd-4d6d-b5c7-72763901d9ea",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "Complaint submitted",
+    "actorId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.276Z"
+  },
+  {
+    "id": "5cb057fc-a450-47d4-9c74-75c33b6d3768",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "AI classified as Water Supply Issue (72% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.277Z"
+  },
+  {
+    "id": "abee630a-e28a-4167-872f-109a0257b4b2",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.277Z"
+  },
+  {
+    "id": "537cdace-7a3d-4299-828a-9cca7ee94aef",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "Assigned to Water Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.278Z"
+  },
+  {
+    "id": "c66ff515-be4e-4b90-a55f-d0bfdfde783a",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.279Z"
+  },
+  {
+    "id": "107cf133-556e-4dc7-bc20-293e33b0da87",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.280Z"
+  },
+  {
+    "id": "9a8b1c43-e925-451e-9a25-64dc93617817",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.281Z"
+  },
+  {
+    "id": "5c320597-1176-4db3-afd2-01f8f7a6dcdc",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "Resolution notes added",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.281Z"
+  },
+  {
+    "id": "30a629d2-e875-488f-bcbc-63546f8339a3",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "event": "Status changed to Resolved",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.282Z"
+  },
+  {
+    "id": "ed2ed837-ef1f-4c68-9f7a-2b8f70392d61",
+    "complaintId": "8d78dc56-c221-4d84-829a-9f208e68128e",
+    "event": "Complaint submitted",
+    "actorId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.282Z"
+  },
+  {
+    "id": "495d877e-f5d7-4e21-9e39-8e16b1e04048",
+    "complaintId": "8d78dc56-c221-4d84-829a-9f208e68128e",
+    "event": "AI classified as Billing Dispute (77% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.283Z"
+  },
+  {
+    "id": "4fdfad5d-e77c-4c99-8a3a-0171f3a82d9c",
+    "complaintId": "8f2efa26-ab67-4eb4-a4c0-25c988c869da",
+    "event": "Complaint submitted",
+    "actorId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.284Z"
+  },
+  {
+    "id": "8c8877f5-7aa2-4849-a266-5f900b802dce",
+    "complaintId": "8f2efa26-ab67-4eb4-a4c0-25c988c869da",
+    "event": "AI classified as Water Supply Issue (83% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.284Z"
+  },
+  {
+    "id": "d735d4c9-8d73-4b39-a07a-8293b60129ae",
+    "complaintId": "8f2efa26-ab67-4eb4-a4c0-25c988c869da",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.285Z"
+  },
+  {
+    "id": "46c84b31-b420-4936-9ea8-b96d4bcedc8a",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "event": "Complaint submitted",
+    "actorId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.285Z"
+  },
+  {
+    "id": "dd57923e-027f-4722-b318-d8f1e76f51a1",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "event": "AI classified as Water Supply Issue (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.287Z"
+  },
+  {
+    "id": "4c8d658f-72a1-44c1-bc08-4171baee3357",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.287Z"
+  },
+  {
+    "id": "0f1e7068-5b89-4fb3-9f99-f62ef1514eaa",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "event": "Assigned to Water Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.288Z"
+  },
+  {
+    "id": "9b5ea654-6773-4699-899c-8f236305b45f",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.288Z"
+  },
+  {
+    "id": "5395f868-165c-4703-91a6-b5fb8cde0ec4",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "event": "Complaint submitted",
+    "actorId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.289Z"
+  },
+  {
+    "id": "791a4a48-e373-492c-98c4-b358db47e88e",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "event": "AI classified as Sanitation (83% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.289Z"
+  },
+  {
+    "id": "5ce238c5-fd48-49db-86c1-40e367884391",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.290Z"
+  },
+  {
+    "id": "536eb149-72c4-49fa-bda8-de0a80dbc490",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "event": "Assigned to Sanitation Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.290Z"
+  },
+  {
+    "id": "50cfc4cd-27a0-487c-9598-a28207d3b024",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.291Z"
+  },
+  {
+    "id": "c16ecd0f-1c11-41b1-9846-3de501ce0d58",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.292Z"
+  },
+  {
+    "id": "23ea0483-d2df-4575-accf-6f1933370df2",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.292Z"
+  },
+  {
+    "id": "729dc300-c360-45ac-9044-d755e5a8c28b",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "Complaint submitted",
+    "actorId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.293Z"
+  },
+  {
+    "id": "3785f58b-f7b9-4155-9f2c-14cb4c26a201",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "AI classified as Sanitation (83% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.293Z"
+  },
+  {
+    "id": "166f12c1-faee-40f5-95bb-74fc7aa744bd",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.294Z"
+  },
+  {
+    "id": "dd82da35-aefd-48b7-b60a-0c9a351e0ddc",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "Assigned to Sanitation Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.294Z"
+  },
+  {
+    "id": "8b36fdf2-1939-4092-9896-cb500da39cd1",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.295Z"
+  },
+  {
+    "id": "6e689652-3b5f-4da6-9252-c0bd99260be7",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.296Z"
+  },
+  {
+    "id": "48f9a493-9925-4539-9452-71d68553688c",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.296Z"
+  },
+  {
+    "id": "1bd4722e-e973-4ddf-bea2-30076dcb7357",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "Resolution notes added",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.297Z"
+  },
+  {
+    "id": "73c91afb-869f-44b5-ac85-b053f1c30feb",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "event": "Status changed to Resolved",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.297Z"
+  },
+  {
+    "id": "7f434894-0d03-45ba-b6a7-983bc3fd3299",
+    "complaintId": "5f3dd127-eb3b-4eb0-96df-3599bbec4c5c",
+    "event": "Complaint submitted",
+    "actorId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.298Z"
+  },
+  {
+    "id": "316435b1-0e74-47bc-b6af-22d2a28ee774",
+    "complaintId": "5f3dd127-eb3b-4eb0-96df-3599bbec4c5c",
+    "event": "AI classified as Sanitation (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.298Z"
+  },
+  {
+    "id": "b894b089-56ee-48df-b8e2-3918c40b80cc",
+    "complaintId": "42bc4fd1-9e2b-4dd6-a718-e1bee0453f61",
+    "event": "Complaint submitted",
+    "actorId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.299Z"
+  },
+  {
+    "id": "dfe21a63-c65f-4039-ab99-2f94217cb18c",
+    "complaintId": "42bc4fd1-9e2b-4dd6-a718-e1bee0453f61",
+    "event": "AI classified as Sanitation (83% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.299Z"
+  },
+  {
+    "id": "fb6d7836-9595-41d9-94bc-93e154ae5bb8",
+    "complaintId": "42bc4fd1-9e2b-4dd6-a718-e1bee0453f61",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.300Z"
+  },
+  {
+    "id": "b5a93ba2-4cbe-44e3-94c3-3121a0d1eec1",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "event": "Complaint submitted",
+    "actorId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.301Z"
+  },
+  {
+    "id": "b5201739-2fd3-4984-ab86-301562b2b03f",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "event": "AI classified as Sanitation (83% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.302Z"
+  },
+  {
+    "id": "c9d4d15a-1209-47df-a093-d9ce00efc73c",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.302Z"
+  },
+  {
+    "id": "2279c7d6-d1be-4834-a9d6-b76d4262db8f",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "event": "Assigned to Sanitation Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.305Z"
+  },
+  {
+    "id": "5a32049d-df4f-40dc-8925-d32a63b14307",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.309Z"
+  },
+  {
+    "id": "54dc82b2-8b98-416d-b12b-1e33df08df26",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "event": "Complaint submitted",
+    "actorId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.310Z"
+  },
+  {
+    "id": "40d6c14b-548c-4211-b3f0-1bf4a697e3e4",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "event": "AI classified as Sanitation (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.310Z"
+  },
+  {
+    "id": "2a830d0e-9c31-45f2-9472-6e974ae664f9",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.311Z"
+  },
+  {
+    "id": "5ba1cfb1-47de-4921-aa3a-de5216683f60",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "event": "Assigned to Sanitation Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.313Z"
+  },
+  {
+    "id": "19ac6bbc-777e-4e18-90dd-8d773567703f",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.313Z"
+  },
+  {
+    "id": "4875b7db-117c-44e9-9672-a961af5584a0",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.314Z"
+  },
+  {
+    "id": "25d082f9-0ca9-48aa-9e9d-30035ecbf3b2",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.315Z"
+  },
+  {
+    "id": "6a950d30-5163-4128-888e-9de46ba19537",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "Complaint submitted",
+    "actorId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.316Z"
+  },
+  {
+    "id": "d0f7567a-6386-41a0-b2b9-6f7620049b74",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "AI classified as General (20% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.317Z"
+  },
+  {
+    "id": "24697294-c6be-461b-bb94-edc69e1f75e2",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.317Z"
+  },
+  {
+    "id": "3460db7d-8951-48ec-a2eb-ebb06d1a6350",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "Assigned to Sanitation Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.318Z"
+  },
+  {
+    "id": "a44374fa-6441-4673-bd18-9b1c192a03c7",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.318Z"
+  },
+  {
+    "id": "89d453ce-bdab-4d0c-b22e-82f30c46ca9d",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.319Z"
+  },
+  {
+    "id": "76d4917c-358c-428f-972c-a64dcdbc03b9",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.320Z"
+  },
+  {
+    "id": "f9cfd48a-3122-4019-beb9-72a122f32d5e",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "Resolution notes added",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.320Z"
+  },
+  {
+    "id": "a2c0768c-1b2b-44e7-9ee1-8878c675f124",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "event": "Status changed to Resolved",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.321Z"
+  },
+  {
+    "id": "e1588c61-6a10-48ef-812d-4079fe87dd90",
+    "complaintId": "676813de-f3ad-45a8-bddc-b7b4860220e0",
+    "event": "Complaint submitted",
+    "actorId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.322Z"
+  },
+  {
+    "id": "64506e10-64a7-4c19-98cb-44e441f801f0",
+    "complaintId": "676813de-f3ad-45a8-bddc-b7b4860220e0",
+    "event": "AI classified as Network Connectivity (88% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.323Z"
+  },
+  {
+    "id": "9dc09076-55fb-4fd1-a642-386abf0e4546",
+    "complaintId": "9d2b1be7-c53f-4156-a27f-8d8b3b362a5c",
+    "event": "Complaint submitted",
+    "actorId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.323Z"
+  },
+  {
+    "id": "ef3a1911-11a1-4b7b-9c42-2cc723a6600a",
+    "complaintId": "9d2b1be7-c53f-4156-a27f-8d8b3b362a5c",
+    "event": "AI classified as Network Connectivity (94% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.324Z"
+  },
+  {
+    "id": "5f575cc8-6e4e-44aa-8794-e9ff0294cb47",
+    "complaintId": "9d2b1be7-c53f-4156-a27f-8d8b3b362a5c",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.325Z"
+  },
+  {
+    "id": "b7faa075-459a-4371-9758-799d1837f1c4",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "event": "Complaint submitted",
+    "actorId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.325Z"
+  },
+  {
+    "id": "154f95b6-a5c0-4a1a-84d7-95bb69428ea8",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "event": "AI classified as General (20% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.327Z"
+  },
+  {
+    "id": "fdc31faf-5cc5-40f4-9c79-a0f2f9f8d4b3",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.327Z"
+  },
+  {
+    "id": "f4588c79-92d6-46f1-8d4b-71dc729e2d2b",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "event": "Assigned to Telecommunications Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.328Z"
+  },
+  {
+    "id": "f80ffe86-a05a-4add-b190-efee5ad53ea0",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.329Z"
+  },
+  {
+    "id": "b5e3beb3-6b99-4ad1-bd6b-2fc93136f7c7",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "event": "Complaint submitted",
+    "actorId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.330Z"
+  },
+  {
+    "id": "cca45e57-56dd-4b41-9464-b4c2253cac99",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "event": "AI classified as General (20% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.331Z"
+  },
+  {
+    "id": "747cc484-04d1-4541-bf45-77b10d7930c5",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.331Z"
+  },
+  {
+    "id": "3b47bd54-c14c-4233-94bf-1e9b8ea3a1d0",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "event": "Assigned to Telecommunications Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.333Z"
+  },
+  {
+    "id": "70b90754-8da8-407c-b693-e637af144dd4",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.333Z"
+  },
+  {
+    "id": "80b18f1b-b733-42d2-b9f7-6cd219332c62",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.334Z"
+  },
+  {
+    "id": "4224796a-b8b2-4127-a438-9dcee94a8b61",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.335Z"
+  },
+  {
+    "id": "64994b5c-dcd7-48ef-bc11-3338f39fb66f",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "Complaint submitted",
+    "actorId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.336Z"
+  },
+  {
+    "id": "561709e5-ebfb-4e9d-8895-01a5909b3c4d",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "AI classified as Network Connectivity (77% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.337Z"
+  },
+  {
+    "id": "41ffd2e4-eb9d-4d92-bebe-89fce86e8eb6",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.337Z"
+  },
+  {
+    "id": "a63e92d2-35d2-4eb3-88b4-9c54437b925e",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "Assigned to Telecommunications Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.338Z"
+  },
+  {
+    "id": "622e3fdc-2272-473e-9d88-20a348ee40d0",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.339Z"
+  },
+  {
+    "id": "edb4a2e8-b928-4584-8955-17f09ebacf94",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.341Z"
+  },
+  {
+    "id": "d0ae141f-b52f-4a13-8798-57a1e77f5b53",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.341Z"
+  },
+  {
+    "id": "8f2f8e3d-0127-472d-8809-79521d64ff74",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "Resolution notes added",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.342Z"
+  },
+  {
+    "id": "4a36de39-a657-4468-9562-e1d67393cc74",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "event": "Status changed to Resolved",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.343Z"
+  },
+  {
+    "id": "6969f190-0106-48f8-8869-7f116e8a3b21",
+    "complaintId": "17559c33-3c28-43bb-ac71-8827808ca994",
+    "event": "Complaint submitted",
+    "actorId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.344Z"
+  },
+  {
+    "id": "17027445-8e38-48b1-acad-4a4c0fd2e605",
+    "complaintId": "17559c33-3c28-43bb-ac71-8827808ca994",
+    "event": "AI classified as Network Connectivity (88% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.345Z"
+  },
+  {
+    "id": "cce7ad63-0d58-4280-86f6-083cf5567e35",
+    "complaintId": "63383ef5-a76f-415a-a09e-8ed5aea445ae",
+    "event": "Complaint submitted",
+    "actorId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.346Z"
+  },
+  {
+    "id": "03ce7964-f201-44fd-a45d-8e0326b4a890",
+    "complaintId": "63383ef5-a76f-415a-a09e-8ed5aea445ae",
+    "event": "AI classified as Network Connectivity (72% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.347Z"
+  },
+  {
+    "id": "6ba67b9e-0166-495a-93aa-998b80978bfa",
+    "complaintId": "63383ef5-a76f-415a-a09e-8ed5aea445ae",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.347Z"
+  },
+  {
+    "id": "cf2f12b2-c55b-4d5c-81e0-bb453ee64bea",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "event": "Complaint submitted",
+    "actorId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.348Z"
+  },
+  {
+    "id": "fc8b597c-b543-4bf7-95df-43609e307dae",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "event": "AI classified as General (20% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.349Z"
+  },
+  {
+    "id": "87eaa856-1b47-47e4-8a99-3a01a1678867",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.350Z"
+  },
+  {
+    "id": "ee5c1310-d6af-4d6e-bdf2-42a2ee48bf9d",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "event": "Assigned to General Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.350Z"
+  },
+  {
+    "id": "b6a621b7-358e-4b3f-b05e-2bb260072abf",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.351Z"
+  },
+  {
+    "id": "894c9cc6-11ba-4a17-a8e8-871a86d97457",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "event": "Complaint submitted",
+    "actorId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.352Z"
+  },
+  {
+    "id": "2670500e-a171-40f8-bbbf-f335a9c68cb0",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "event": "AI classified as General (77% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.353Z"
+  },
+  {
+    "id": "ccd2b1e0-07f5-4110-b1cf-4572f3233d4b",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.354Z"
+  },
+  {
+    "id": "d58d4c03-aff1-4456-bfbe-3f56a6eca4f5",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "event": "Assigned to General Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.354Z"
+  },
+  {
+    "id": "21fba4b0-391b-4906-82b3-57e1d23643d0",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.355Z"
+  },
+  {
+    "id": "cf92b59a-e2b5-46a9-89fb-d1c1ccfbf4b6",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.356Z"
+  },
+  {
+    "id": "28ba0c91-3c1b-44cc-b2de-27ea58d5cf81",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.357Z"
+  },
+  {
+    "id": "4b19d452-a78f-4a56-94f6-3e84d021a48d",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "Complaint submitted",
+    "actorId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.358Z"
+  },
+  {
+    "id": "577463d1-6ec6-4f2e-9676-cfa2d46bd3c6",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "AI classified as Billing Dispute (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.359Z"
+  },
+  {
+    "id": "957622ed-d709-4ca6-923c-7273c749a860",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.360Z"
+  },
+  {
+    "id": "862341c6-dcd3-495b-83ef-0342a5075359",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "Assigned to Electricity Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.361Z"
+  },
+  {
+    "id": "18b9999a-bb34-4584-8055-e26c0ce072f1",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.362Z"
+  },
+  {
+    "id": "18c942cb-4e44-4721-9d5f-9f366fc69d04",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.363Z"
+  },
+  {
+    "id": "2c33b70d-a732-4abf-bfdb-72961f4201c1",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.363Z"
+  },
+  {
+    "id": "ab4cec8e-b24b-4f49-8217-bdbd4b0e4dbc",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "Resolution notes added",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.364Z"
+  },
+  {
+    "id": "0fa3c951-ffa0-4678-87ec-76d29b802d11",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "event": "Status changed to Resolved",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.365Z"
+  },
+  {
+    "id": "f2061789-156a-4118-931c-a4947b1a4096",
+    "complaintId": "2a73c98e-fd01-47f9-965e-df122e06883d",
+    "event": "Complaint submitted",
+    "actorId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.366Z"
+  },
+  {
+    "id": "96a896d5-7a78-41d4-be94-be9f68eb5add",
+    "complaintId": "2a73c98e-fd01-47f9-965e-df122e06883d",
+    "event": "AI classified as Water Supply Issue (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.367Z"
+  },
+  {
+    "id": "638fc0e2-71f7-452a-bd59-2d3c177a168e",
+    "complaintId": "fae0f611-dc0d-4199-aac7-29f4e27ce227",
+    "event": "Complaint submitted",
+    "actorId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.367Z"
+  },
+  {
+    "id": "552c7dd9-9435-4cbd-bb6a-bd94dca90c23",
+    "complaintId": "fae0f611-dc0d-4199-aac7-29f4e27ce227",
+    "event": "AI classified as Sanitation (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.369Z"
+  },
+  {
+    "id": "04f625ef-05a3-47e8-be91-6213fc05456d",
+    "complaintId": "fae0f611-dc0d-4199-aac7-29f4e27ce227",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.370Z"
+  },
+  {
+    "id": "25bda000-fca8-4da4-860a-b9692f400ca9",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "event": "Complaint submitted",
+    "actorId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.371Z"
+  },
+  {
+    "id": "b38ab774-a598-4a9d-be81-2480772463ed",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "event": "AI classified as Network Connectivity (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.372Z"
+  },
+  {
+    "id": "7ba2b33f-0651-4b3d-b8b4-7511bb41afa6",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.373Z"
+  },
+  {
+    "id": "632cc20a-ce8f-42e8-a468-1180e90a5404",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "event": "Assigned to Telecommunications Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.374Z"
+  },
+  {
+    "id": "2310a197-7d8d-4706-9a81-99ce31de7ff7",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.375Z"
+  },
+  {
+    "id": "3660c189-3690-4bfc-bfe5-0e075439a6a8",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "event": "Complaint submitted",
+    "actorId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.376Z"
+  },
+  {
+    "id": "f0823c8f-6d1a-4eb3-9d53-587a918ae1a1",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "event": "AI classified as Power Outage (72% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.377Z"
+  },
+  {
+    "id": "fdf98baa-d27c-4edb-9443-2ff40fbf89a6",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.378Z"
+  },
+  {
+    "id": "38323bb9-14f9-4b9c-bbbd-c6f4b4391380",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "event": "Assigned to Electricity Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.380Z"
+  },
+  {
+    "id": "f8efd5e4-beed-4c72-a4f1-7b534f672d84",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.380Z"
+  },
+  {
+    "id": "166e10f0-a506-4806-8a3f-9ece1fedd338",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.381Z"
+  },
+  {
+    "id": "ce3c688a-91e0-43d1-9a56-1ef43b4a14d2",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.382Z"
+  },
+  {
+    "id": "9bd57d69-7f9c-463b-b770-1ae70ed09270",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "Complaint submitted",
+    "actorId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "actorRole": "citizen",
+    "timestamp": "2026-09-18T18:35:34.383Z"
+  },
+  {
+    "id": "47a9c105-71df-4591-8257-75ee2ce20b40",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "AI classified as Water Supply Issue (99% confidence)",
+    "actorId": null,
+    "actorRole": "system",
+    "timestamp": "2026-09-18T18:35:34.385Z"
+  },
+  {
+    "id": "619a81af-26ae-44bd-bde1-f1116d0d343c",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "Status changed to Under Review",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.388Z"
+  },
+  {
+    "id": "6248152d-4b16-4aa0-8a26-ae63c26c7a89",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "Assigned to Water Operations Team",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.392Z"
+  },
+  {
+    "id": "d2d3c69b-ab76-4472-bc9f-c69872468cc9",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "Status changed to Assigned",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.393Z"
+  },
+  {
+    "id": "6bc58694-c98f-4e10-864f-0ec4aa3e747d",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "Status changed to In Progress",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.395Z"
+  },
+  {
+    "id": "ce7d2a79-c64a-458b-a6af-8951aa932734",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "Administrator responded",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.396Z"
+  },
+  {
+    "id": "18ba18a4-8b92-4137-b306-ccf25cf0aa21",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "Resolution notes added",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.397Z"
+  },
+  {
+    "id": "b7af6051-b4f8-4321-89bb-3de39c534ed1",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "event": "Status changed to Resolved",
+    "actorId": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "actorRole": "admin",
+    "timestamp": "2026-09-18T18:35:34.398Z"
+  }
+]

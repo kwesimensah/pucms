@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "b81a60ea-531b-4183-b99a-e1f46bd1aa3e",
+    "userId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "message": "Your complaint PUC-2026-000001 has been submitted and classified as \"Power Outage\".",
+    "complaintId": "c1012afb-c094-47be-917e-d5fad93c865b",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.240Z"
+  },
+  {
+    "id": "785bffc6-3c2c-4669-bb3f-467b3322ecb4",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000002 has been submitted and classified as \"Power Outage\".",
+    "complaintId": "bdc95aeb-ac40-459e-95de-e3259955fa7f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.241Z"
+  },
+  {
+    "id": "ec11bfd9-f310-4a5e-815a-573fbc2a2507",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000002 status changed to \"Under Review\".",
+    "complaintId": "bdc95aeb-ac40-459e-95de-e3259955fa7f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.242Z"
+  },
+  {
+    "id": "841494a5-1d5c-44d9-8737-98c333447071",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000003 has been submitted and classified as \"Billing Dispute\".",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.242Z"
+  },
+  {
+    "id": "5df7983d-18f4-4321-bb98-835f16d84cc4",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000003 status changed to \"Under Review\".",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.243Z"
+  },
+  {
+    "id": "bfcdb8c8-6342-49b8-88e5-74c81333882b",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000003 was assigned to Electricity Operations Team.",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.243Z"
+  },
+  {
+    "id": "d33a6002-fb92-494e-be34-cdead58e86f5",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000003 status changed to \"Assigned\".",
+    "complaintId": "3d60b141-703d-4982-9403-6a86d164d2ea",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.243Z"
+  },
+  {
+    "id": "606d4705-fe18-4d15-8503-d9431b0e5bb8",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000004 has been submitted and classified as \"Billing Dispute\".",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.244Z"
+  },
+  {
+    "id": "c40ba22c-25fb-4b57-9d16-82e2db915119",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000004 status changed to \"Under Review\".",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.244Z"
+  },
+  {
+    "id": "bfe672f0-0bd5-4944-b320-bbb1fb057f87",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000004 was assigned to Electricity Operations Team.",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.245Z"
+  },
+  {
+    "id": "84331f4d-ba8b-49d3-874c-8ef6bc1e92d5",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000004 status changed to \"Assigned\".",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.245Z"
+  },
+  {
+    "id": "ba7cd44f-ac76-48d7-9741-a4fc2cb908ec",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000004 status changed to \"In Progress\".",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.246Z"
+  },
+  {
+    "id": "3230b21c-6fc2-4820-86d5-3d56f6cb950c",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Administrator responded to your complaint PUC-2026-000004.",
+    "complaintId": "9ffc8adf-6baf-4f47-95bf-62a2b55e29cd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.246Z"
+  },
+  {
+    "id": "8a19fdc9-af10-4a22-b2a6-c7dd75665e6d",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000005 has been submitted and classified as \"Power Outage\".",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.247Z"
+  },
+  {
+    "id": "04e963c2-0361-412d-8897-f91093ca8c8a",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000005 status changed to \"Under Review\".",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.247Z"
+  },
+  {
+    "id": "46e82fd1-2eea-454d-b5c0-4d1b03fa519a",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000005 was assigned to Electricity Operations Team.",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.247Z"
+  },
+  {
+    "id": "3d4c3a59-d283-4e0e-b79f-82f2088111cd",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000005 status changed to \"Assigned\".",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.248Z"
+  },
+  {
+    "id": "0a560b47-acd4-45f1-9253-ea70df041565",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000005 status changed to \"In Progress\".",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.248Z"
+  },
+  {
+    "id": "fb127305-5e9e-4400-8650-7b0713e739b3",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000005.",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.249Z"
+  },
+  {
+    "id": "be4c6ce9-d528-4188-acc5-44d15b3d0663",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000005.",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.251Z"
+  },
+  {
+    "id": "a333a286-b1f0-463b-aea7-23f6f52f619c",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000005 status changed to \"Resolved\".",
+    "complaintId": "942dad7d-7a36-4e39-83b5-38c1aff9c8d1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.252Z"
+  },
+  {
+    "id": "b6ea41be-b37b-4a90-9f67-c5968c163fd6",
+    "userId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "message": "Your complaint PUC-2026-000006 has been submitted and classified as \"Power Outage\".",
+    "complaintId": "5ac5a99f-1e63-48ef-a668-3464ae45b49d",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.254Z"
+  },
+  {
+    "id": "a5ac36e8-ff80-4b88-82b0-cf19a2e5c0b1",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000007 has been submitted and classified as \"General\".",
+    "complaintId": "2bedcdf4-3a01-466d-bc2c-b1f926c50fae",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.255Z"
+  },
+  {
+    "id": "bbf23ec8-0c3b-4d2e-9ee3-e4c846ec4b05",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000007 status changed to \"Under Review\".",
+    "complaintId": "2bedcdf4-3a01-466d-bc2c-b1f926c50fae",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.256Z"
+  },
+  {
+    "id": "0102725f-e37b-4daa-8166-7bf5f92ac2ca",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000008 has been submitted and classified as \"Power Outage\".",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.257Z"
+  },
+  {
+    "id": "e0bd74e9-9946-4d14-b729-a0b1efdf4ac2",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000008 status changed to \"Under Review\".",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.258Z"
+  },
+  {
+    "id": "7f7c2f7d-ac4c-4579-8cab-d7d273937cfe",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000008 was assigned to Electricity Operations Team.",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.258Z"
+  },
+  {
+    "id": "4fa5c26f-d4fd-4d17-ae5b-bac02f3b88a0",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000008 status changed to \"Assigned\".",
+    "complaintId": "75acf332-05f9-4469-8049-04f7662799d2",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.259Z"
+  },
+  {
+    "id": "ae3d147c-4987-4767-a7bc-8fc16261dd53",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000009 has been submitted and classified as \"Power Outage\".",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.260Z"
+  },
+  {
+    "id": "009fad3a-8339-49ab-846a-f1ff20827a86",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000009 status changed to \"Under Review\".",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.261Z"
+  },
+  {
+    "id": "3eb4e327-0340-4a8f-ab97-8e8c7d4d6fd5",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000009 was assigned to Electricity Operations Team.",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.261Z"
+  },
+  {
+    "id": "088f6dbb-fcf5-4a08-a2f8-89f905f9bdfb",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000009 status changed to \"Assigned\".",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.262Z"
+  },
+  {
+    "id": "76173feb-5a62-4422-9d37-ff68dbcfdbd1",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000009 status changed to \"In Progress\".",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.262Z"
+  },
+  {
+    "id": "84eddc0a-033c-4ec2-aedf-31c2e8f48608",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Administrator responded to your complaint PUC-2026-000009.",
+    "complaintId": "faae4390-64ba-4351-9542-e3a81b982e68",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.263Z"
+  },
+  {
+    "id": "1d81fc38-900e-4f47-b4b9-c2347a6fef63",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000010 has been submitted and classified as \"Power Outage\".",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.264Z"
+  },
+  {
+    "id": "de4c896c-078a-49e9-b207-5c4c83fe61fb",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000010 status changed to \"Under Review\".",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.264Z"
+  },
+  {
+    "id": "930bb70b-a80f-4e95-b3cf-6cd7213d99cf",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000010 was assigned to Electricity Operations Team.",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.264Z"
+  },
+  {
+    "id": "dc8286de-40b0-4be6-924d-f9153c5ba8ad",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000010 status changed to \"Assigned\".",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.265Z"
+  },
+  {
+    "id": "eea37db7-38c4-48f4-9001-66fda4b8d836",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000010 status changed to \"In Progress\".",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.265Z"
+  },
+  {
+    "id": "7a73ed2e-3db4-4f1b-bbe8-97b8ecec3f49",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000010.",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.266Z"
+  },
+  {
+    "id": "2275ce42-fc7d-438b-8087-2279ad220296",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000010.",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.266Z"
+  },
+  {
+    "id": "23780d57-7301-429c-81e8-2d8bcacd467b",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000010 status changed to \"Resolved\".",
+    "complaintId": "265b86c2-af27-4454-a6d8-deec357471e8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.267Z"
+  },
+  {
+    "id": "e382cceb-de00-4022-a2ae-9722d62fda40",
+    "userId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "message": "Your complaint PUC-2026-000011 has been submitted and classified as \"General\".",
+    "complaintId": "d64610cb-c4a3-444f-a006-4591e0ef1692",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.268Z"
+  },
+  {
+    "id": "a4763361-7d94-42cd-9d35-fefcbff6d285",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000012 has been submitted and classified as \"Water Supply Issue\".",
+    "complaintId": "5a1d0a25-9a6a-419b-aa7c-70f007239cd5",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.269Z"
+  },
+  {
+    "id": "f42f5d35-5f07-4db3-97da-c391e0fb68e2",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000012 status changed to \"Under Review\".",
+    "complaintId": "5a1d0a25-9a6a-419b-aa7c-70f007239cd5",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.270Z"
+  },
+  {
+    "id": "571596b9-1d54-4a5d-80a7-156388ccae05",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000013 has been submitted and classified as \"Water Supply Issue\".",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.271Z"
+  },
+  {
+    "id": "38b638c1-061a-4d72-90fc-c970426da61c",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000013 status changed to \"Under Review\".",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.271Z"
+  },
+  {
+    "id": "97bfbdb2-b350-44d2-ab47-50707de39601",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000013 was assigned to Water Operations Team.",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.272Z"
+  },
+  {
+    "id": "ba150c2e-cab1-480c-9171-48ce79fa84ae",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000013 status changed to \"Assigned\".",
+    "complaintId": "528dd48a-7b12-43ee-8ea9-581c8eeb0676",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.272Z"
+  },
+  {
+    "id": "baa1d651-153e-463e-b905-66532bdd9e0a",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000014 has been submitted and classified as \"General\".",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.273Z"
+  },
+  {
+    "id": "13598d30-3186-49c1-877b-41621d11ff03",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000014 status changed to \"Under Review\".",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.274Z"
+  },
+  {
+    "id": "f563db87-1fac-4732-a8f6-dc3a5c2f4d4a",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000014 was assigned to Water Operations Team.",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.274Z"
+  },
+  {
+    "id": "781066bc-48a9-49b9-a387-b0db4b6cba30",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000014 status changed to \"Assigned\".",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.275Z"
+  },
+  {
+    "id": "8b1644fa-9722-497b-980e-3cf4fa714cdc",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000014 status changed to \"In Progress\".",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.275Z"
+  },
+  {
+    "id": "17f63fa7-e7f3-46dd-910c-30f59c34946f",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Administrator responded to your complaint PUC-2026-000014.",
+    "complaintId": "06e05636-fcdf-445e-a930-e22513d82b87",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.276Z"
+  },
+  {
+    "id": "deedc6d8-fdef-48df-9ad1-d6215f4a9f12",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000015 has been submitted and classified as \"Water Supply Issue\".",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.277Z"
+  },
+  {
+    "id": "9dc74871-2171-446c-9263-8fc49f7d850d",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000015 status changed to \"Under Review\".",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.277Z"
+  },
+  {
+    "id": "7e51639f-054c-42ed-865f-abd7040b51bf",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000015 was assigned to Water Operations Team.",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.278Z"
+  },
+  {
+    "id": "a51d018e-893d-4054-a28f-ca62cb0980bb",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000015 status changed to \"Assigned\".",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.280Z"
+  },
+  {
+    "id": "57f17e12-0679-4a97-b173-abc960e69844",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000015 status changed to \"In Progress\".",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.280Z"
+  },
+  {
+    "id": "b406e42f-b1ca-4e8c-8545-bb84ec384181",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000015.",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.281Z"
+  },
+  {
+    "id": "f22fc1c0-f0b9-42f2-be43-94b7b439f553",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000015.",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.281Z"
+  },
+  {
+    "id": "433a500b-65e8-4aa7-af01-7d2cacf41725",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000015 status changed to \"Resolved\".",
+    "complaintId": "9b51334d-7003-4796-a7a8-ad479993661a",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.282Z"
+  },
+  {
+    "id": "8fd83636-e47c-4330-9026-1b31843c687c",
+    "userId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "message": "Your complaint PUC-2026-000016 has been submitted and classified as \"Billing Dispute\".",
+    "complaintId": "8d78dc56-c221-4d84-829a-9f208e68128e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.283Z"
+  },
+  {
+    "id": "66529760-b908-4fe3-8603-9b368162c401",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000017 has been submitted and classified as \"Water Supply Issue\".",
+    "complaintId": "8f2efa26-ab67-4eb4-a4c0-25c988c869da",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.284Z"
+  },
+  {
+    "id": "4e78c4ee-8bfe-4060-a3b3-500c71019b17",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000017 status changed to \"Under Review\".",
+    "complaintId": "8f2efa26-ab67-4eb4-a4c0-25c988c869da",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.285Z"
+  },
+  {
+    "id": "2e790791-f618-43be-aee3-d48ee4e00fa7",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000018 has been submitted and classified as \"Water Supply Issue\".",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.287Z"
+  },
+  {
+    "id": "71e88f60-f598-4589-96bf-baccc4b1c048",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000018 status changed to \"Under Review\".",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.287Z"
+  },
+  {
+    "id": "db9e2f0f-55a3-4598-9bd5-ed9749557af1",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000018 was assigned to Water Operations Team.",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.288Z"
+  },
+  {
+    "id": "fdccd2cb-7a83-4e0a-9b1d-a12afcf1132d",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000018 status changed to \"Assigned\".",
+    "complaintId": "18d77d84-999e-4499-b382-37ee3e1cdbc8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.289Z"
+  },
+  {
+    "id": "74e1b86f-8407-46e5-80d8-f1c88e4747b2",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000019 has been submitted and classified as \"Sanitation\".",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.290Z"
+  },
+  {
+    "id": "298eb2c8-b060-4d5c-91c9-ea0d590f8bf2",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000019 status changed to \"Under Review\".",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.290Z"
+  },
+  {
+    "id": "15077f2c-62f5-4228-85ad-d028c7cf1e09",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000019 was assigned to Sanitation Operations Team.",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.291Z"
+  },
+  {
+    "id": "f92eb944-e754-4afd-96a1-05eae5a10131",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000019 status changed to \"Assigned\".",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.291Z"
+  },
+  {
+    "id": "ac394088-8350-473e-ad04-507d69c8881a",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000019 status changed to \"In Progress\".",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.292Z"
+  },
+  {
+    "id": "325f0a0e-9452-4e85-8abc-245725bab25a",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Administrator responded to your complaint PUC-2026-000019.",
+    "complaintId": "71526a7b-c20d-4623-9708-cadcc47ca33f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.292Z"
+  },
+  {
+    "id": "9bcb6c69-195c-4849-972c-c5f0d1f2fd51",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000020 has been submitted and classified as \"Sanitation\".",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.293Z"
+  },
+  {
+    "id": "e581e738-f6b7-4db8-8257-88553196e403",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000020 status changed to \"Under Review\".",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.294Z"
+  },
+  {
+    "id": "d747e863-094c-4666-a2f6-2d908a381f74",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000020 was assigned to Sanitation Operations Team.",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.295Z"
+  },
+  {
+    "id": "5d1d2550-9d25-4f51-a8dc-6d9461614ba4",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000020 status changed to \"Assigned\".",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.295Z"
+  },
+  {
+    "id": "8fddd513-6232-45b4-b223-39037bbe246c",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000020 status changed to \"In Progress\".",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.296Z"
+  },
+  {
+    "id": "8523316e-255f-459c-8996-789df5a14864",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000020.",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.296Z"
+  },
+  {
+    "id": "72dadf1c-c9f3-4c1f-b227-a3af5573388f",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000020.",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.297Z"
+  },
+  {
+    "id": "d590ee52-c6ba-479e-b39b-2a2b63b4ff87",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000020 status changed to \"Resolved\".",
+    "complaintId": "143fdec1-2ca4-416e-a3ad-63d60b0311d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.298Z"
+  },
+  {
+    "id": "057037ae-6d9c-43eb-9612-54a165336654",
+    "userId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "message": "Your complaint PUC-2026-000021 has been submitted and classified as \"Sanitation\".",
+    "complaintId": "5f3dd127-eb3b-4eb0-96df-3599bbec4c5c",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.299Z"
+  },
+  {
+    "id": "7aace197-3736-4db2-8c68-8bfd41049369",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000022 has been submitted and classified as \"Sanitation\".",
+    "complaintId": "42bc4fd1-9e2b-4dd6-a718-e1bee0453f61",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.300Z"
+  },
+  {
+    "id": "5450c0cf-af16-4cc9-838d-7ee8919b98d3",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000022 status changed to \"Under Review\".",
+    "complaintId": "42bc4fd1-9e2b-4dd6-a718-e1bee0453f61",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.301Z"
+  },
+  {
+    "id": "964470b4-fc7a-41d0-a25b-1769c0c583b5",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000023 has been submitted and classified as \"Sanitation\".",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.302Z"
+  },
+  {
+    "id": "3815cc01-7d50-48cd-b614-61312623dd3d",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000023 status changed to \"Under Review\".",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.303Z"
+  },
+  {
+    "id": "5f8324c1-96e9-4dba-8262-2b85e7ce723a",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000023 was assigned to Sanitation Operations Team.",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.309Z"
+  },
+  {
+    "id": "1cd1bfa3-50c2-49a1-8939-46f216baef18",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000023 status changed to \"Assigned\".",
+    "complaintId": "4a4fb346-cb6e-4059-a5e6-3dd8e024f6e7",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.309Z"
+  },
+  {
+    "id": "8d5794e4-e4d2-4ac1-8e5e-3e57fe508581",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000024 has been submitted and classified as \"Sanitation\".",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.311Z"
+  },
+  {
+    "id": "88a65f75-42c4-48c8-83ff-e4262d6a26b6",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000024 status changed to \"Under Review\".",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.312Z"
+  },
+  {
+    "id": "629ed013-9c56-45a7-a528-4d9ade804bdc",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000024 was assigned to Sanitation Operations Team.",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.313Z"
+  },
+  {
+    "id": "71885ce3-99b8-4206-b1b5-6c973d5a49d9",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000024 status changed to \"Assigned\".",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.314Z"
+  },
+  {
+    "id": "6b140ab5-7b1b-4a98-aa41-af0cd5d279be",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000024 status changed to \"In Progress\".",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.315Z"
+  },
+  {
+    "id": "a37c041c-f70a-4b10-ba2c-646c55d7dc79",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Administrator responded to your complaint PUC-2026-000024.",
+    "complaintId": "19947255-7b20-4b75-a2c8-e4edb5929416",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.315Z"
+  },
+  {
+    "id": "2a541de5-a099-44c4-9f14-c60fd5ea176b",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000025 has been submitted and classified as \"General\".",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.317Z"
+  },
+  {
+    "id": "be9512b2-1fbc-4121-9631-ff4e32c7d275",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000025 status changed to \"Under Review\".",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.317Z"
+  },
+  {
+    "id": "fa517594-e1e7-4201-b68f-79af84d9b55a",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000025 was assigned to Sanitation Operations Team.",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.318Z"
+  },
+  {
+    "id": "1ccb5ae9-5543-42a3-8d36-2cfd00e0579e",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000025 status changed to \"Assigned\".",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.319Z"
+  },
+  {
+    "id": "d6e92de4-26e9-4c69-9423-bee41933c86a",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000025 status changed to \"In Progress\".",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.319Z"
+  },
+  {
+    "id": "ce0c8b26-54d9-4461-a6b0-b04621ecd137",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000025.",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.320Z"
+  },
+  {
+    "id": "69e3a634-be85-4760-83d9-1b60c3298791",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000025.",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.321Z"
+  },
+  {
+    "id": "c98c4b69-6d6e-4b72-9a3e-030c8d5a7363",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000025 status changed to \"Resolved\".",
+    "complaintId": "bd872a54-03f8-47a8-9552-44bbc783a27e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.322Z"
+  },
+  {
+    "id": "14b308d8-04ff-42fd-899f-5ce6a731abc8",
+    "userId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "message": "Your complaint PUC-2026-000026 has been submitted and classified as \"Network Connectivity\".",
+    "complaintId": "676813de-f3ad-45a8-bddc-b7b4860220e0",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.323Z"
+  },
+  {
+    "id": "237d6b4a-70e6-4e9d-a1a1-669f92c140bf",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000027 has been submitted and classified as \"Network Connectivity\".",
+    "complaintId": "9d2b1be7-c53f-4156-a27f-8d8b3b362a5c",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.324Z"
+  },
+  {
+    "id": "7c223408-427d-4bc2-a9a4-a82604ab6dea",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000027 status changed to \"Under Review\".",
+    "complaintId": "9d2b1be7-c53f-4156-a27f-8d8b3b362a5c",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.325Z"
+  },
+  {
+    "id": "1cf29524-bb7d-4037-90df-09e8f89f8ccd",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000028 has been submitted and classified as \"General\".",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.327Z"
+  },
+  {
+    "id": "da81231c-ed1b-43ba-b52d-acffad7c0f0f",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000028 status changed to \"Under Review\".",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.327Z"
+  },
+  {
+    "id": "cf0df8a5-5a07-4491-9861-2339d705668c",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000028 was assigned to Telecommunications Operations Team.",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.328Z"
+  },
+  {
+    "id": "811ff2a4-faf2-4885-88f0-4fb7f02ea304",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000028 status changed to \"Assigned\".",
+    "complaintId": "b10fe5cb-7e34-4e50-ba27-4024774293d8",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.329Z"
+  },
+  {
+    "id": "4042794d-7b82-4cdc-95a7-a8ac20908c82",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000029 has been submitted and classified as \"General\".",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.331Z"
+  },
+  {
+    "id": "c53b70de-5b79-4fe8-912f-1bb224b14b6e",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000029 status changed to \"Under Review\".",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.332Z"
+  },
+  {
+    "id": "abcda26b-f1ce-4128-af53-c3b9bb4b25fa",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000029 was assigned to Telecommunications Operations Team.",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.333Z"
+  },
+  {
+    "id": "b22780d6-1d51-4794-a6bc-c3f5a217c417",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000029 status changed to \"Assigned\".",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.333Z"
+  },
+  {
+    "id": "a7970ffb-8432-461a-bde2-4b7f386569a7",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000029 status changed to \"In Progress\".",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.334Z"
+  },
+  {
+    "id": "2109cf63-025b-4657-afe3-c4348a8380cd",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Administrator responded to your complaint PUC-2026-000029.",
+    "complaintId": "03f48f30-2892-44a5-aab3-2ec10f1e7633",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.335Z"
+  },
+  {
+    "id": "4e27b43d-c0d0-40f0-b0a2-02bb3aa09a95",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000030 has been submitted and classified as \"Network Connectivity\".",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.337Z"
+  },
+  {
+    "id": "91b45b43-8446-473c-8151-3ac2cd3d9816",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000030 status changed to \"Under Review\".",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.338Z"
+  },
+  {
+    "id": "68349b03-9eef-4f70-a8bd-1c9af39e4e8f",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000030 was assigned to Telecommunications Operations Team.",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.338Z"
+  },
+  {
+    "id": "5f467985-9144-4e05-9b72-afa3f4e093f6",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000030 status changed to \"Assigned\".",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.339Z"
+  },
+  {
+    "id": "77d25696-5b40-41ca-90c6-3537af2634a5",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000030 status changed to \"In Progress\".",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.341Z"
+  },
+  {
+    "id": "ea13e01b-9d61-4f74-abca-efafe8aa484a",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000030.",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.342Z"
+  },
+  {
+    "id": "39c7eaca-2fce-48ce-a9bf-5f6e4e2ba138",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000030.",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.342Z"
+  },
+  {
+    "id": "bc3fb55e-0912-42c7-9c77-389c7736d86b",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000030 status changed to \"Resolved\".",
+    "complaintId": "2fb77f94-11fc-496e-8aa7-404002b78cb4",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.343Z"
+  },
+  {
+    "id": "104af389-aa0d-4b86-83ba-24922e960b6c",
+    "userId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "message": "Your complaint PUC-2026-000031 has been submitted and classified as \"Network Connectivity\".",
+    "complaintId": "17559c33-3c28-43bb-ac71-8827808ca994",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.346Z"
+  },
+  {
+    "id": "ffada310-adfe-4299-808d-913ee3506c14",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000032 has been submitted and classified as \"Network Connectivity\".",
+    "complaintId": "63383ef5-a76f-415a-a09e-8ed5aea445ae",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.347Z"
+  },
+  {
+    "id": "8d78e98b-e5b1-4d6e-be43-6546472da8cc",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000032 status changed to \"Under Review\".",
+    "complaintId": "63383ef5-a76f-415a-a09e-8ed5aea445ae",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.348Z"
+  },
+  {
+    "id": "7a3d7285-c41d-43f6-8336-acf64e1aa37e",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000033 has been submitted and classified as \"General\".",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.349Z"
+  },
+  {
+    "id": "6b9e08e3-ccc3-40cd-9d7e-f77d921c8412",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000033 status changed to \"Under Review\".",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.350Z"
+  },
+  {
+    "id": "b0153936-02b0-4d1f-88ee-894af266cef5",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000033 was assigned to General Operations Team.",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.351Z"
+  },
+  {
+    "id": "38cf8c92-e675-475e-b73f-d792609477ce",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000033 status changed to \"Assigned\".",
+    "complaintId": "518b4e5e-0af5-45e9-9ee2-23bb926e206e",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.351Z"
+  },
+  {
+    "id": "cd603de1-ff08-4b6a-9b77-1a4c186dd7b3",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000034 has been submitted and classified as \"General\".",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.353Z"
+  },
+  {
+    "id": "a3270fcb-90ca-4193-88d2-fdaf7fb71a1a",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000034 status changed to \"Under Review\".",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.354Z"
+  },
+  {
+    "id": "96206861-f79f-4124-81c9-2b4eb0118545",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000034 was assigned to General Operations Team.",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.355Z"
+  },
+  {
+    "id": "4a1c1179-50b2-4184-8d7e-83f9a2cff1be",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000034 status changed to \"Assigned\".",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.355Z"
+  },
+  {
+    "id": "3446233d-8247-49f9-99be-59d3ef142540",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000034 status changed to \"In Progress\".",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.357Z"
+  },
+  {
+    "id": "b12015a3-fda3-46f0-8f45-3457895497c3",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Administrator responded to your complaint PUC-2026-000034.",
+    "complaintId": "5cc03e45-9407-4f74-a45f-1cde39b01b02",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.358Z"
+  },
+  {
+    "id": "e597c81a-0fe0-4309-8210-a7d15ff764ad",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000035 has been submitted and classified as \"Billing Dispute\".",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.359Z"
+  },
+  {
+    "id": "8b51a4f7-815a-45c2-8428-390e746742b6",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000035 status changed to \"Under Review\".",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.360Z"
+  },
+  {
+    "id": "8c1b9f90-af10-4627-bf2f-a7af3fea0a4f",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000035 was assigned to Electricity Operations Team.",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.361Z"
+  },
+  {
+    "id": "4b1ee4da-52f3-4cc5-9cb1-05d83c1efff6",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000035 status changed to \"Assigned\".",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.362Z"
+  },
+  {
+    "id": "2601e243-ba73-426a-8243-8451a1c6d1ce",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000035 status changed to \"In Progress\".",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.363Z"
+  },
+  {
+    "id": "c45ca658-f722-4735-9b17-ec8fa266581e",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000035.",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.364Z"
+  },
+  {
+    "id": "2f8ab1e0-1118-49be-9821-bd813f2939c5",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000035.",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.364Z"
+  },
+  {
+    "id": "3d6446ca-146d-4cd5-a822-d7a199900783",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000035 status changed to \"Resolved\".",
+    "complaintId": "ca18ed64-15ab-431d-9bd7-84632c1b467f",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.366Z"
+  },
+  {
+    "id": "75e70537-1645-428a-91f5-3691ab477146",
+    "userId": "0796b01a-7cb4-45f6-90f5-91c32b6ea5ae",
+    "message": "Your complaint PUC-2026-000036 has been submitted and classified as \"Water Supply Issue\".",
+    "complaintId": "2a73c98e-fd01-47f9-965e-df122e06883d",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.367Z"
+  },
+  {
+    "id": "8d432c03-65b4-4c66-b9c7-dc519b1f8930",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000037 has been submitted and classified as \"Sanitation\".",
+    "complaintId": "fae0f611-dc0d-4199-aac7-29f4e27ce227",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.369Z"
+  },
+  {
+    "id": "11ca050c-8086-4865-b360-558c7c351653",
+    "userId": "7408b15d-907c-44d2-a161-570a2007dada",
+    "message": "Your complaint PUC-2026-000037 status changed to \"Under Review\".",
+    "complaintId": "fae0f611-dc0d-4199-aac7-29f4e27ce227",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.370Z"
+  },
+  {
+    "id": "c16f8cc5-7422-48e5-be44-98aaaec52f2a",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000038 has been submitted and classified as \"Network Connectivity\".",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.372Z"
+  },
+  {
+    "id": "f635756d-a8b5-4e71-aac8-5703da16eaf6",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000038 status changed to \"Under Review\".",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.373Z"
+  },
+  {
+    "id": "80bf2401-453b-4cf7-a17f-2f0706d7cd4e",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000038 was assigned to Telecommunications Operations Team.",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.375Z"
+  },
+  {
+    "id": "895fbccb-ba03-4d6e-a562-e4539e1cc12d",
+    "userId": "279e967d-62a9-40a7-946c-84198ed926ea",
+    "message": "Your complaint PUC-2026-000038 status changed to \"Assigned\".",
+    "complaintId": "ec06b8fd-13ae-4525-a0d5-376da794cfb1",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.376Z"
+  },
+  {
+    "id": "1a6f2a78-98df-42b6-a256-e2737783ca10",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000039 has been submitted and classified as \"Power Outage\".",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.377Z"
+  },
+  {
+    "id": "33d4c8d4-ed94-4cbc-af22-ba640d8da603",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000039 status changed to \"Under Review\".",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.379Z"
+  },
+  {
+    "id": "07385cbb-a785-47fc-aaa2-daed0766400d",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000039 was assigned to Electricity Operations Team.",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.380Z"
+  },
+  {
+    "id": "51e4ec1f-4072-4521-b76e-36834dc0733e",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000039 status changed to \"Assigned\".",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.381Z"
+  },
+  {
+    "id": "d7c409b6-b822-4148-8d8e-dcc7ef4b9203",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Your complaint PUC-2026-000039 status changed to \"In Progress\".",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.382Z"
+  },
+  {
+    "id": "c3d5131a-df5b-4ef8-a9fd-1ff20f31768b",
+    "userId": "49a29760-4d32-4004-8d6a-1ce196ce0f76",
+    "message": "Administrator responded to your complaint PUC-2026-000039.",
+    "complaintId": "d200b198-7815-47a6-9280-b5794bb372dd",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.383Z"
+  },
+  {
+    "id": "c46436b3-1c23-4b18-a8a2-2889c810d15e",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000040 has been submitted and classified as \"Water Supply Issue\".",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.386Z"
+  },
+  {
+    "id": "9ef6d98f-a77c-4399-bbaa-4895abe7befa",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000040 status changed to \"Under Review\".",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.389Z"
+  },
+  {
+    "id": "d45e946a-8677-46b9-9bec-22b2eab602c7",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000040 was assigned to Water Operations Team.",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.393Z"
+  },
+  {
+    "id": "b268f9ca-14dd-4076-9777-65d8f1f2c507",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000040 status changed to \"Assigned\".",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.394Z"
+  },
+  {
+    "id": "ea248d06-dc20-4059-a53b-e47af186408e",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000040 status changed to \"In Progress\".",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.395Z"
+  },
+  {
+    "id": "92603ce3-f171-4fd2-ba6f-07acf6be2663",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000040.",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.397Z"
+  },
+  {
+    "id": "f2423bd6-0df5-46ed-be2c-49c4a431e602",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Administrator responded to your complaint PUC-2026-000040.",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.398Z"
+  },
+  {
+    "id": "1e5a4301-723c-4c74-9a1a-7d6a7b38e172",
+    "userId": "63ea8aab-4d8e-4f70-b932-fa84bb09f035",
+    "message": "Your complaint PUC-2026-000040 status changed to \"Resolved\".",
+    "complaintId": "942ee6ff-f10d-4984-83b7-dc5b55b26de3",
+    "read": false,
+    "createdAt": "2026-09-18T18:35:34.399Z"
+  }
+]

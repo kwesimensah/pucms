@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUCMS — Submit a Complaint</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="nav"></div>
+<div class="page-wrap" style="max-width:720px;">
+  <div class="page-header">
+    <div>
+      <h1>Submit a Complaint</h1>
+      <p>Describe your issue in detail — our AI classification engine will automatically categorize and prioritize it.</p>
+    </div>
+  </div>
+
+  <div class="card" id="formCard">
+    <div id="alert"></div>
+    <form id="complaintForm">
+      <div class="form-group">
+        <label for="utility">Utility type</label>
+        <select id="utility" required>
+          <option value="">Select a utility…</option>
+          <option value="Electricity">Electricity</option>
+          <option value="Water">Water</option>
+          <option value="Sanitation">Sanitation</option>
+          <option value="Telecommunications">Telecommunications</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="title">Complaint title</label>
+        <input type="text" id="title" required maxlength="120" placeholder="e.g. No power supply since yesterday">
+      </div>
+      <div class="form-group">
+        <label for="description">Complaint description</label>
+        <textarea id="description" required rows="5" minlength="15" placeholder="Describe the issue in as much detail as possible — this is what our AI uses to classify and prioritize your complaint."></textarea>
+        <div class="hint"><span id="charCount">0</span> characters (minimum 15)</div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="location">Location / address</label>
+          <input type="text" id="location" required placeholder="e.g. Dansoman, Accra">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone number <span class="muted">(optional)</span></label>
+          <input type="tel" id="phone" placeholder="+233 XX XXX XXXX">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="attachment">Supporting attachment <span class="muted">(optional, filename only for this prototype)</span></label>
+        <input type="file" id="attachment">
+      </div>
+      <button type="submit" class="btn" style="width:100%">Submit Complaint</button>
+    </form>
+  </div>
+
+  <div class="card" id="resultCard" style="display:none;">
+    <div class="alert success">Complaint submitted successfully.</div>
+    <div class="section-title">AI Classification Result</div>
+    <table>
+      <tr><td class="muted" style="width:200px;">Complaint ID</td><td id="r-id" style="font-weight:700;"></td></tr>
+      <tr><td class="muted">Utility</td><td id="r-utility"></td></tr>
+      <tr><td class="muted">AI Category</td><td id="r-category"></td></tr>
+      <tr><td class="muted">Priority</td><td id="r-priority"></td></tr>
+      <tr><td class="muted">AI Confidence</td><td id="r-confidence"></td></tr>
+      <tr><td class="muted">Status</td><td id="r-status"></td></tr>
+    </table>
+    <div style="margin-top:18px; display:flex; gap:10px;">
+      <a id="r-view" href="#" class="btn">View Complaint</a>
+      <a href="submit-complaint.html" class="btn ghost">Submit Another</a>
+    </div>
+  </div>
+</div>
+<script src="js/api.js"></script>
+<script>
+requireLogin('citizen');
+document.getElementById('nav').innerHTML = renderTopbar('submit');
+
+const descField = document.getElementById('description');
+descField.addEventListener('input', () => {
+  document.getElementById('charCount').textContent = descField.value.trim().length;
+});
+
+document.getElementById('complaintForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  clearAlert('alert');
+  const utility = document.getElementById('utility').value;
+  const title = document.getElementById('title').value.trim();
+  const description = document.getElementById('description').value.trim();
+  const location = document.getElementById('location').value.trim();
+  const phone = document.getElementById('phone').value.trim();
+  const fileInput = document.getElementById('attachment');
+  const attachmentName = fileInput.files.length ? fileInput.files[0].name : null;
+
+  if (description.length < 15) {
+    showAlert('alert', 'Description must be at least 15 characters so we can classify it accurately.', 'error');
+    return;
+  }
+
+  const btn = e.target.querySelector('button[type="submit"]');
+  btn.disabled = true; btn.textContent = 'Submitting…';
+
+  try {
+    const data = await Api.post('/complaints', { utility, title, description, location, phone, attachmentName });
+    document.getElementById('formCard').style.display = 'none';
+    const c = data.complaint;
+    document.getElementById('r-id').textContent = c.complaintNumber;
+    document.getElementById('r-utility').textContent = c.utility;
+    document.getElementById('r-category').textContent = c.category;
+    document.getElementById('r-priority').innerHTML = `<span class="badge ${priorityClass(c.priority)}">${escapeHtml(c.priority)}</span>`;
+    document.getElementById('r-confidence').textContent = Math.round(c.aiConfidence * 100) + '%';
+    document.getElementById('r-status').innerHTML = `<span class="badge ${statusClass(c.status)}">${escapeHtml(c.status)}</span>`;
+    document.getElementById('r-view').href = `complaint-detail.html?id=${c.id}`;
+    document.getElementById('resultCard').style.display = 'block';
+  } catch (err) {
+    showAlert('alert', err.message, 'error');
+    btn.disabled = false; btn.textContent = 'Submit Complaint';
+  }
+});
+</script>
+</body>
+</html>

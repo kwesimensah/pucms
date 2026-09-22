@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUCMS — My Dashboard</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="nav"></div>
+<div class="page-wrap">
+  <div class="page-header">
+    <div>
+      <h1 id="greeting">Welcome</h1>
+      <p>Here's an overview of your complaints.</p>
+    </div>
+    <a href="submit-complaint.html" class="btn">+ Submit a Complaint</a>
+  </div>
+
+  <div class="stat-grid" id="statGrid">
+    <div class="stat-card"><div class="stat-value">—</div><div class="stat-label">Total Complaints</div></div>
+    <div class="stat-card"><div class="stat-value">—</div><div class="stat-label">Open</div></div>
+    <div class="stat-card warning"><div class="stat-value">—</div><div class="stat-label">In Progress</div></div>
+    <div class="stat-card resolved"><div class="stat-value">—</div><div class="stat-label">Resolved</div></div>
+  </div>
+
+  <div class="card">
+    <div class="section-title">Recent Complaints</div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Utility</th><th>Category</th><th>Submitted</th><th>Priority</th><th>Status</th><th>Last Updated</th><th></th></tr>
+        </thead>
+        <tbody id="recentBody"><tr><td colspan="8" class="muted">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<script src="js/api.js"></script>
+<script>
+requireLogin('citizen');
+document.getElementById('nav').innerHTML = renderTopbar('dashboard');
+document.getElementById('greeting').textContent = `Welcome, ${Session.name}`;
+
+async function load() {
+  try {
+    const { complaints } = await Api.get('/complaints/mine');
+    const total = complaints.length;
+    const open = complaints.filter(c => c.status === 'Submitted' || c.status === 'Under Review').length;
+    const inProgress = complaints.filter(c => c.status === 'Assigned' || c.status === 'In Progress').length;
+    const resolved = complaints.filter(c => c.status === 'Resolved' || c.status === 'Closed').length;
+
+    const grid = document.getElementById('statGrid');
+    grid.innerHTML = `
+      <div class="stat-card"><div class="stat-value">${total}</div><div class="stat-label">Total Complaints</div></div>
+      <div class="stat-card"><div class="stat-value">${open}</div><div class="stat-label">Open</div></div>
+      <div class="stat-card warning"><div class="stat-value">${inProgress}</div><div class="stat-label">In Progress</div></div>
+      <div class="stat-card resolved"><div class="stat-value">${resolved}</div><div class="stat-label">Resolved</div></div>
+    `;
+
+    const recent = complaints.slice(0, 8);
+    const body = document.getElementById('recentBody');
+    if (!recent.length) {
+      body.innerHTML = `<tr><td colspan="8"><div class="empty-state">You haven't submitted any complaints yet. <a href="submit-complaint.html">Submit your first one</a>.</div></td></tr>`;
+      return;
+    }
+    body.innerHTML = recent.map(c => `
+      <tr>
+        <td><a href="complaint-detail.html?id=${c.id}">${escapeHtml(c.complaintNumber)}</a></td>
+        <td>${escapeHtml(c.utility)}</td>
+        <td>${escapeHtml(c.category || '—')}</td>
+        <td>${fmtDate(c.createdAt)}</td>
+        <td><span class="badge ${priorityClass(c.priority)}">${escapeHtml(c.priority)}</span></td>
+        <td><span class="badge ${statusClass(c.status)}">${escapeHtml(c.status)}</span></td>
+        <td>${fmtDate(c.updatedAt)}</td>
+        <td><a href="complaint-detail.html?id=${c.id}" class="btn ghost small">View</a></td>
+      </tr>
+    `).join('');
+  } catch (err) {
+    document.getElementById('recentBody').innerHTML = `<tr><td colspan="8"><div class="alert error">${escapeHtml(err.message)}</div></td></tr>`;
+  }
+}
+load();
+</script>
+</body>
+</html>

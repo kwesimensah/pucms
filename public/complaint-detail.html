@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUCMS — Complaint Detail</title>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+  .stage-track { display: flex; justify-content: space-between; margin: 6px 0 24px; position: relative; }
+  .stage-track::before { content:''; position:absolute; top:11px; left:0; right:0; height:2px; background:var(--color-border); z-index:0; }
+  .stage { position:relative; z-index:1; text-align:center; flex:1; font-size:11.5px; color:var(--color-text-muted); }
+  .stage .dot { width:22px; height:22px; border-radius:50%; background:#fff; border:2px solid var(--color-border); margin:0 auto 6px; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:var(--color-text-muted); }
+  .stage.done .dot { background: var(--color-success); border-color: var(--color-success); color:#fff; }
+  .stage.current .dot { background: var(--color-primary); border-color: var(--color-primary); color:#fff; }
+  .stage.done, .stage.current { color: var(--color-text); font-weight:600; }
+</style>
+</head>
+<body>
+<div id="nav"></div>
+<div class="page-wrap">
+  <div id="content"><p class="muted">Loading…</p></div>
+</div>
+<script src="js/api.js"></script>
+<script>
+requireLogin('citizen');
+document.getElementById('nav').innerHTML = renderTopbar('mine');
+
+const STAGES = ['Submitted', 'Under Review', 'Assigned', 'In Progress', 'Resolved', 'Closed'];
+const params = new URLSearchParams(window.location.search);
+const id = params.get('id');
+
+function stageTrackHtml(status) {
+  const currentIdx = STAGES.indexOf(status);
+  return `<div class="stage-track">${STAGES.map((s, i) => {
+    let cls = '';
+    let icon = '○';
+    if (i < currentIdx) { cls = 'done'; icon = '✓'; }
+    else if (i === currentIdx) { cls = 'current'; icon = '●'; }
+    return `<div class="stage ${cls}"><div class="dot">${icon}</div>${s}</div>`;
+  }).join('')}</div>`;
+}
+
+async function load() {
+  if (!id) {
+    document.getElementById('content').innerHTML = `<div class="alert error">No complaint specified.</div>`;
+    return;
+  }
+  try {
+    const data = await Api.get(`/complaints/${id}`);
+    const c = data.complaint;
+    const cls = data.classification;
+
+    const historyHtml = data.history.map(h => `
+      <li>
+        <div class="t-time">${fmtDate(h.timestamp)} · ${escapeHtml(h.actorRole)}</div>
+        <div class="t-event">${escapeHtml(h.event)}</div>
+      </li>
+    `).join('');
+
+    const responsesHtml = data.responses.length
+      ? data.responses.map(r => `
+          <div class="card" style="padding:14px; margin-bottom:10px; ${r.isResolutionNote ? 'border-left:4px solid var(--color-success);' : ''}">
+            <div class="muted" style="font-size:12px; margin-bottom:4px;">${r.isResolutionNote ? 'Resolution Note' : 'Administrator Response'} · ${fmtDate(r.createdAt)}</div>
+            <div>${escapeHtml(r.message)}</div>
+          </div>
+        `).join('')
+      : `<p class="muted">No administrator responses yet.</p>`;
+
+    document.getElementById('content').innerHTML = `
+      <div class="page-header">
+        <div>
+          <h1>${escapeHtml(c.complaintNumber)}</h1>
+          <p>${escapeHtml(c.title)}</p>
+        </div>
+        <a href="my-complaints.html" class="btn ghost">← Back to My Complaints</a>
+      </div>
+
+      <div class="card">
+        <div class="section-title">Status</div>
+        ${stageTrackHtml(c.status)}
+      </div>
+
+      <div class="grid-2" style="margin-top:16px;">
+        <div>
+          <div class="card">
+            <div class="section-title">Complaint Details</div>
+            <table>
+              <tr><td class="muted" style="width:160px;">Utility</td><td>${escapeHtml(c.utility)}</td></tr>
+              <tr><td class="muted">Category</td><td>${escapeHtml(c.category || '—')}</td></tr>
+              <tr><td class="muted">Priority</td><td><span class="badge ${priorityClass(c.priority)}">${escapeHtml(c.priority)}</span></td></tr>
+              <tr><td class="muted">Location</td><td>${escapeHtml(c.location)}</td></tr>
+              <tr><td class="muted">Submitted</td><td>${fmtDate(c.createdAt)}</td></tr>
+              <tr><td class="muted">Last Updated</td><td>${fmtDate(c.updatedAt)}</td></tr>
+              ${c.resolvedAt ? `<tr><td class="muted">Resolved</td><td>${fmtDate(c.resolvedAt)}</td></tr>` : ''}
+            </table>
+            <div class="section-title" style="margin-top:18px;">Description</div>
+            <p>${escapeHtml(c.description)}</p>
+          </div>
+
+          <div class="card">
+            <div class="section-title">Administrator Responses &amp; Resolution</div>
+            ${responsesHtml}
+          </div>
+        </div>
+
+        <div>
+          <div class="card">
+            <div class="section-title">AI Classification</div>
+            <table>
+              <tr><td class="muted">Category</td><td>${escapeHtml(cls ? cls.aiCategory : '—')}</td></tr>
+              <tr><td class="muted">Confidence</td><td>${cls ? Math.round(cls.aiConfidence * 100) + '%' : '—'}</td></tr>
+              ${cls && cls.correctedCategory ? `<tr><td class="muted">Admin corrected to</td><td>${escapeHtml(cls.correctedCategory)}</td></tr>` : ''}
+            </table>
+            ${cls && cls.keywords && cls.keywords.length ? `<div style="margin-top:10px;">${cls.keywords.map(k => `<span class="kw-tag">${escapeHtml(k)}</span>`).join('')}</div>` : ''}
+          </div>
+
+          <div class="card">
+            <div class="section-title">Timeline</div>
+            <ul class="timeline">${historyHtml}</ul>
+          </div>
+        </div>
+      </div>
+    `;
+  } catch (err) {
+    document.getElementById('content').innerHTML = `<div class="alert error">${escapeHtml(err.message)}</div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>

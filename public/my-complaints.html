@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUCMS — My Complaints</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="nav"></div>
+<div class="page-wrap">
+  <div class="page-header">
+    <div>
+      <h1>My Complaints</h1>
+      <p>Track the status of every complaint you've submitted.</p>
+    </div>
+    <a href="submit-complaint.html" class="btn">+ Submit a Complaint</a>
+  </div>
+
+  <div class="card">
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>ID</th><th>Title</th><th>Utility</th><th>Category</th><th>Priority</th><th>Status</th><th>Submitted</th><th>Last Update</th><th></th></tr>
+        </thead>
+        <tbody id="body"><tr><td colspan="9" class="muted">Loading…</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<script src="js/api.js"></script>
+<script>
+requireLogin('citizen');
+document.getElementById('nav').innerHTML = renderTopbar('mine');
+
+async function load() {
+  try {
+    const { complaints } = await Api.get('/complaints/mine');
+    const body = document.getElementById('body');
+    if (!complaints.length) {
+      body.innerHTML = `<tr><td colspan="9"><div class="empty-state">You haven't submitted any complaints yet. <a href="submit-complaint.html">Submit your first one</a>.</div></td></tr>`;
+      return;
+    }
+    body.innerHTML = complaints.map(c => `
+      <tr>
+        <td><a href="complaint-detail.html?id=${c.id}">${escapeHtml(c.complaintNumber)}</a></td>
+        <td>${escapeHtml(c.title)}</td>
+        <td>${escapeHtml(c.utility)}</td>
+        <td>${escapeHtml(c.category || '—')}</td>
+        <td><span class="badge ${priorityClass(c.priority)}">${escapeHtml(c.priority)}</span></td>
+        <td><span class="badge ${statusClass(c.status)}">${escapeHtml(c.status)}</span></td>
+        <td>${fmtDate(c.createdAt)}</td>
+        <td>${fmtDate(c.updatedAt)}</td>
+        <td><a href="complaint-detail.html?id=${c.id}" class="btn ghost small">View</a></td>
+      </tr>
+    `).join('');
+  } catch (err) {
+    document.getElementById('body').innerHTML = `<tr><td colspan="9"><div class="alert error">${escapeHtml(err.message)}</div></td></tr>`;
+  }
+}
+load();
+</script>
+</body>
+</html>

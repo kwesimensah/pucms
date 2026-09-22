@@ -1,0 +1,18 @@
+[
+  {
+    "id": "d85898fa-6593-4c20-99e0-0432923ad4b1",
+    "role": "admin",
+    "fullName": "Ama Owusu",
+    "email": "admin@pucms.gov.gh",
+    "passwordHash": "$2a$10$o5LxogYHgTzl7qwBgoi7u.Lr/CWFrI.FTjSHgK0ZbkPxl8c.LUvci",
+    "createdAt": "2026-09-18T18:35:33.688Z"
+  },
+  {
+    "id": "ec241dd2-a510-4a44-a987-194771f415a6",
+    "role": "admin",
+    "fullName": "Kojo Mensah",
+    "email": "kojo.mensah@pucms.gov.gh",
+    "passwordHash": "$2a$10$0F883uQuN.6Ser/TnbGGGeZx1yAwqlEHxnNiRjPK1pkwkQ3LQNOVK",
+    "createdAt": "2026-09-18T18:35:33.784Z"
+  }
+]
